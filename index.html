@@ -1,0 +1,3663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>100 Law Chamber | Senior Adv. Mohamed Ansaree & Adv. B. Kannan | Madras High Court</title>
+  
+  <!-- SEO & Meta Tags -->
+  <meta name="description" content="100 Law Chamber, Madras High Court. Chambers of Senior Advocate Mr. Mohamed Ansaree (B.Com, B.L.) and Advocate & Legal Consultant B. Kannan (MBA., M.Com., M.Phil, B.L.). Professional legal advisory and courtroom representation in Chennai, Tamil Nadu.">
+  <meta name="keywords" content="Best Advocate in Chennai, Civil Lawyer Chennai, Criminal Lawyer Chennai, Family Lawyer Chennai, Divorce Lawyer Chennai, Property Lawyer Chennai, High Court Advocate Chennai, Legal Consultant Chennai, Registration Lawyer Chennai, Bail Lawyer Chennai, Corporate Lawyer Chennai, Consumer Court Advocate Chennai, Legal Documentation Chennai, Madras High Court Advocates">
+  <meta name="author" content="100 Law Chamber">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph Meta -->
+  <meta property="og:title" content="100 Law Chamber | Senior Adv. Mohamed Ansaree & Adv. B. Kannan | Madras High Court">
+  <meta property="og:description" content="Committed to Justice. Dedicated to Protecting Your Rights. Chambers of Senior Advocate Mohamed Ansaree & Advocate B. Kannan.">
+  <meta property="og:type" content="website">
+
+  <!-- Curated Luxury Legal Typography: Cormorant Garamond, Cinzel, Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800;900&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* ==========================================================================
+       01. DESIGN TOKENS & TYPOGRAPHY SYSTEM
+       ========================================================================== */
+    :root {
+      --bg-navy-dark: #080E18;
+      --bg-navy: #0D1624;
+      --bg-navy-light: #132034;
+      --bg-card: #0F1A2B;
+      --bg-card-hover: #15243B;
+      
+      --gold: #C9A84C;
+      --gold-light: #E5CF8E;
+      --gold-dark: #9A7B30;
+      --gold-dim: rgba(201, 168, 76, 0.14);
+      --gold-glow: rgba(201, 168, 76, 0.35);
+      
+      --parchment: #F8F5EE;
+      --parchment-muted: #D5CEBE;
+      --parchment-dim: #A6AFBD;
+      
+      --blood-red: #8B1A1A;
+      --blood-light: #B22222;
+      --blood-dim: rgba(139, 26, 26, 0.2);
+      
+      --border-subtle: rgba(201, 168, 76, 0.18);
+      --border-prominent: rgba(201, 168, 76, 0.42);
+      
+      --font-display: 'Cormorant Garamond', Georgia, serif;
+      --font-cinzel: 'Cinzel', Georgia, serif;
+      --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      
+      --shadow-sm: 0 4px 15px rgba(0, 0, 0, 0.4);
+      --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.55);
+      --shadow-lg: 0 20px 50px rgba(0, 0, 0, 0.7);
+      
+      --transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      background-color: var(--bg-navy-dark);
+      color: var(--parchment);
+      font-family: var(--font-sans);
+      overflow-x: hidden;
+    }
+
+    body {
+      background-color: var(--bg-navy-dark);
+      overflow-x: hidden;
+      line-height: 1.7;
+      font-size: 15px;
+      -webkit-font-smoothing: antialiased;
+      position: relative;
+    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar {
+      width: 7px;
+    }
+    ::-webkit-scrollbar-track {
+      background: var(--bg-navy-dark);
+    }
+    ::-webkit-scrollbar-thumb {
+      background: var(--gold-dark);
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--gold);
+    }
+
+    /* ==========================================================================
+       02. PRELOADER (3.5s WEIGHING MACHINE & SILK RIBBON ANIMATION)
+       ========================================================================== */
+    #preloader {
+      position: fixed;
+      inset: 0;
+      background: radial-gradient(circle at center, #101B2B 0%, #060B12 100%);
+      z-index: 999999;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transition: opacity 0.8s ease, visibility 0.8s ease;
+    }
+
+    #preloader.loaded {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    .preloader-emblem {
+      position: relative;
+      width: 240px;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Scales of Justice Preloader SVG */
+    .preloader-scales-svg {
+      width: 180px;
+      height: 150px;
+      filter: drop-shadow(0 0 20px rgba(201, 168, 76, 0.45));
+    }
+
+    /* Tipping & Balancing Beam Animation */
+    .anim-beam {
+      transform-origin: 90px 38px;
+      animation: weighMotion 3.2s cubic-bezier(0.45, 0.05, 0.55, 0.95) forwards;
+    }
+
+    @keyframes weighMotion {
+      0%   { transform: rotate(0deg); }
+      20%  { transform: rotate(-14deg); }
+      45%  { transform: rotate(11deg); }
+      70%  { transform: rotate(-5deg); }
+      90%  { transform: rotate(1deg); }
+      100% { transform: rotate(0deg); }
+    }
+
+    /* Silk Legal Ribbon Unfurling */
+    .preloader-ribbon-svg {
+      position: absolute;
+      bottom: 10px;
+      width: 220px;
+      height: 50px;
+    }
+
+    .ribbon-path {
+      stroke-dasharray: 400;
+      stroke-dashoffset: 400;
+      animation: ribbonDraw 2.4s cubic-bezier(0.16, 1, 0.3, 1) 0.4s forwards;
+    }
+
+    @keyframes ribbonDraw {
+      0%   { stroke-dashoffset: 400; opacity: 0; }
+      20%  { opacity: 1; }
+      100% { stroke-dashoffset: 0; opacity: 1; }
+    }
+
+    .preloader-seal-wax {
+      position: absolute;
+      bottom: 25px;
+      width: 34px;
+      height: 34px;
+      background: radial-gradient(circle, #9E1C1C 0%, #5E0F0F 80%);
+      border: 1.5px solid var(--gold);
+      border-radius: 50%;
+      box-shadow: 0 0 15px rgba(158, 28, 28, 0.6);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--gold-light);
+      font-family: var(--font-cinzel);
+      font-size: 0.62rem;
+      font-weight: 800;
+      opacity: 0;
+      transform: scale(2);
+      animation: waxStamp 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) 1.8s forwards;
+    }
+
+    @keyframes waxStamp {
+      0%   { opacity: 0; transform: scale(2.2); }
+      100% { opacity: 1; transform: scale(1); }
+    }
+
+    .preloader-title {
+      font-family: var(--font-cinzel);
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: 0.28em;
+      color: var(--parchment);
+      text-transform: uppercase;
+      margin-top: 1.6rem;
+      text-align: center;
+    }
+
+    .preloader-subtitle {
+      font-size: 0.72rem;
+      font-family: var(--font-cinzel);
+      color: var(--gold);
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      margin-top: 0.4rem;
+    }
+
+    .preloader-progress-bar {
+      width: 180px;
+      height: 2px;
+      background: rgba(201, 168, 76, 0.15);
+      margin-top: 1.6rem;
+      position: relative;
+      overflow: hidden;
+      border-radius: 2px;
+    }
+
+    .preloader-progress-fill {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, var(--gold-dark), var(--gold-light));
+      animation: loadProgress 3.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+
+    @keyframes loadProgress {
+      0%   { width: 0%; }
+      30%  { width: 35%; }
+      65%  { width: 75%; }
+      100% { width: 100%; }
+    }
+
+    .preloader-status {
+      font-size: 0.75rem;
+      color: var(--parchment-dim);
+      margin-top: 0.7rem;
+      font-family: var(--font-cinzel);
+      letter-spacing: 0.12em;
+    }
+
+    /* ==========================================================================
+       03. REFINED CURSOR FOLLOWER (SMOOTH & NON-INTRUSIVE)
+       ========================================================================== */
+    #cursor-follower {
+      position: fixed;
+      width: 28px;
+      height: 28px;
+      border: 1.5px solid var(--gold);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 99999;
+      transform: translate(-50%, -50%);
+      transition: width 0.25s ease, height 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+      opacity: 0.6;
+    }
+
+    #cursor-dot {
+      position: fixed;
+      width: 5px;
+      height: 5px;
+      background: var(--gold-light);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 100000;
+      transform: translate(-50%, -50%);
+    }
+
+    #cursor-follower.hovering {
+      width: 44px;
+      height: 44px;
+      background-color: rgba(201, 168, 76, 0.12);
+      border-color: var(--gold-light);
+      opacity: 1;
+    }
+
+    @media (hover: none) and (pointer: coarse) {
+      #cursor-follower, #cursor-dot { display: none !important; }
+    }
+
+    /* ==========================================================================
+       04. COMMON STRUCTURE & REFINED ALIGNMENT
+       ========================================================================== */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    section {
+      padding: 6.5rem 0;
+      position: relative;
+    }
+
+    .section-header {
+      text-align: center;
+      max-width: 760px;
+      margin: 0 auto 3.5rem;
+    }
+
+    .section-label {
+      font-family: var(--font-cinzel);
+      font-size: 0.74rem;
+      font-weight: 700;
+      color: var(--gold);
+      letter-spacing: 0.26em;
+      text-transform: uppercase;
+      display: inline-block;
+      margin-bottom: 0.8rem;
+    }
+
+    .section-heading {
+      font-family: var(--font-display);
+      font-size: clamp(2.4rem, 4vw, 3.4rem);
+      color: var(--parchment);
+      font-weight: 600;
+      line-height: 1.18;
+      letter-spacing: 0.01em;
+      margin-bottom: 1rem;
+    }
+
+    .gold-divider {
+      width: 80px;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+      margin: 1.2rem auto 0;
+    }
+
+    /* Buttons */
+    .btn {
+      font-family: var(--font-cinzel);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      padding: 0.95rem 2rem;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      justify-content: center;
+      transition: var(--transition);
+      border: 1px solid transparent;
+      outline: none;
+      border-radius: 2px;
+      cursor: pointer;
+    }
+
+    .btn-gold {
+      background-color: var(--gold);
+      color: #070D18;
+      border-color: var(--gold);
+      box-shadow: 0 4px 18px rgba(201, 168, 76, 0.28);
+    }
+    .btn-gold:hover {
+      background-color: var(--parchment);
+      border-color: var(--parchment);
+      color: #060A12;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(201, 168, 76, 0.42);
+    }
+
+    .btn-ghost {
+      background-color: transparent;
+      color: var(--parchment);
+      border-color: var(--gold);
+    }
+    .btn-ghost:hover {
+      background-color: var(--gold-dim);
+      border-color: var(--gold-light);
+      color: #FFFFFF;
+      transform: translateY(-2px);
+    }
+
+    .btn-wa {
+      background-color: #128C7E;
+      color: #FFFFFF;
+      border-color: #128C7E;
+    }
+    .btn-wa:hover {
+      background-color: #0B6B5F;
+      border-color: #0B6B5F;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(18, 140, 126, 0.35);
+    }
+
+    /* ==========================================================================
+       05. TOP UTILITY BAR & MAIN NAVIGATION
+       ========================================================================== */
+    .top-utility-bar {
+      background-color: #050A12;
+      border-bottom: 1px solid rgba(201, 168, 76, 0.12);
+      font-size: 0.78rem;
+      padding: 0.55rem 0;
+      color: var(--parchment-dim);
+    }
+
+    .top-utility-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .top-utility-left {
+      display: flex;
+      align-items: center;
+      gap: 1.8rem;
+      flex-wrap: wrap;
+    }
+
+    .top-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+    }
+    .top-item svg {
+      width: 14px;
+      height: 14px;
+      stroke: var(--gold);
+      fill: none;
+    }
+
+    .top-utility-right {
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+    }
+
+    .lang-toggle-box {
+      display: inline-flex;
+      border: 1px solid var(--border-prominent);
+      border-radius: 2px;
+      overflow: hidden;
+      background: var(--bg-navy);
+    }
+
+    .lang-btn {
+      background: transparent;
+      border: none;
+      padding: 0.28rem 0.68rem;
+      color: var(--parchment-dim);
+      font-size: 0.72rem;
+      font-family: var(--font-cinzel);
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s;
+    }
+    .lang-btn.active {
+      background: var(--gold);
+      color: #060B12;
+      font-weight: 800;
+    }
+
+    header.main-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(8, 14, 24, 0.96);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border-subtle);
+      transition: box-shadow 0.3s ease;
+    }
+
+    .nav-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 80px;
+    }
+
+    .brand-group {
+      display: flex;
+      align-items: center;
+      gap: 1.1rem;
+      text-decoration: none;
+    }
+
+    .chamber-seal-icon {
+      width: 48px;
+      height: 48px;
+      border: 1.5px solid var(--gold);
+      border-radius: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: radial-gradient(circle, rgba(201, 168, 76, 0.15) 0%, #060912 85%);
+      box-shadow: 0 0 14px rgba(201, 168, 76, 0.25);
+      position: relative;
+    }
+    .chamber-seal-icon::after {
+      content: '';
+      position: absolute;
+      inset: 3px;
+      border: 1px dashed rgba(201, 168, 76, 0.45);
+      border-radius: 50%;
+    }
+    .seal-no {
+      font-family: var(--font-cinzel);
+      font-size: 1.05rem;
+      font-weight: 800;
+      color: var(--parchment);
+      line-height: 1;
+    }
+    .seal-txt {
+      font-size: 0.42rem;
+      letter-spacing: 0.16em;
+      color: var(--gold);
+      font-weight: 700;
+    }
+
+    .brand-titles {
+      display: flex;
+      flex-direction: column;
+    }
+    .brand-title-main {
+      font-family: var(--font-cinzel);
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      color: var(--parchment);
+      text-transform: uppercase;
+    }
+    .brand-title-sub {
+      font-size: 0.7rem;
+      color: var(--gold);
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 1.6rem;
+      list-style: none;
+    }
+    .nav-link {
+      font-size: 0.78rem;
+      font-family: var(--font-cinzel);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--parchment-muted);
+      text-decoration: none;
+      position: relative;
+      padding: 0.4rem 0;
+      transition: color 0.25s ease;
+      font-weight: 600;
+    }
+    .nav-link:hover, .nav-link.active {
+      color: var(--gold);
+    }
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      width: 0;
+      height: 1.5px;
+      background: var(--gold);
+      transition: width 0.3s ease, left 0.3s ease;
+      transform: translateX(-50%);
+    }
+    .nav-link:hover::after, .nav-link.active::after {
+      width: 100%;
+    }
+
+    .mobile-menu-btn {
+      display: none;
+      background: none;
+      border: none;
+      width: 36px;
+      height: 36px;
+      cursor: pointer;
+    }
+    .mobile-menu-btn span {
+      display: block;
+      width: 22px;
+      height: 2px;
+      background: var(--gold);
+      margin: 5px auto;
+      transition: transform 0.3s;
+    }
+
+    .mobile-drawer {
+      position: fixed;
+      inset: 0;
+      background: rgba(6, 11, 18, 0.98);
+      backdrop-filter: blur(16px);
+      z-index: 10001;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1.4rem;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+    }
+    .mobile-drawer.active {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .drawer-close {
+      position: absolute;
+      top: 1.8rem;
+      right: 2rem;
+      font-size: 2rem;
+      color: var(--gold);
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+    .mobile-link {
+      font-family: var(--font-cinzel);
+      font-size: 1.1rem;
+      color: var(--parchment);
+      text-decoration: none;
+    }
+
+    /* ==========================================================================
+       06. HERO SECTION
+       ========================================================================== */
+    section#hero {
+      min-height: calc(100vh - 120px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 6rem 1.5rem;
+      background: radial-gradient(ellipse at 50% 20%, #15243B 0%, #080E18 75%);
+      position: relative;
+      border-bottom: 1px solid var(--border-subtle);
+      overflow: hidden;
+    }
+
+    .hero-watermark {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: min(80vw, 640px);
+      height: min(80vw, 640px);
+      opacity: 0.06;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(201, 168, 76, 0.08);
+      border: 1px solid var(--border-prominent);
+      padding: 0.4rem 1.2rem;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      font-family: var(--font-cinzel);
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--gold-light);
+      margin-bottom: 1.8rem;
+    }
+    .hero-badge svg {
+      width: 14px;
+      height: 14px;
+      stroke: var(--gold);
+      fill: none;
+    }
+
+    .hero-title {
+      font-family: var(--font-display);
+      font-size: clamp(2.6rem, 5.2vw, 4.2rem);
+      font-weight: 600;
+      color: var(--parchment);
+      line-height: 1.15;
+      letter-spacing: 0.01em;
+      margin-bottom: 1.2rem;
+    }
+
+    .hero-credentials-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.8rem;
+    }
+    .hero-cred-pill {
+      font-size: 0.84rem;
+      font-family: var(--font-cinzel);
+      color: var(--gold);
+      background: rgba(15, 26, 43, 0.7);
+      border: 1px solid var(--border-subtle);
+      padding: 0.4rem 1.1rem;
+      border-radius: 2px;
+    }
+
+    .hero-tagline {
+      font-family: var(--font-display);
+      font-style: italic;
+      font-size: clamp(1.4rem, 2.5vw, 2rem);
+      color: var(--parchment-muted);
+      margin-bottom: 1.4rem;
+      line-height: 1.35;
+    }
+
+    .hero-lead-text {
+      font-size: 1.02rem;
+      color: var(--parchment-dim);
+      max-width: 800px;
+      margin: 0 auto 2.5rem;
+      line-height: 1.8;
+      font-weight: 300;
+    }
+
+    .hero-actions {
+      display: flex;
+      justify-content: center;
+      gap: 1.2rem;
+      flex-wrap: wrap;
+      margin-bottom: 3rem;
+    }
+
+    .hero-standing {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.7rem;
+      padding: 0.65rem 1.5rem;
+      background: #0B1320;
+      border: 1px solid var(--border-subtle);
+      border-left: 3px solid var(--gold);
+      font-size: 0.82rem;
+      color: var(--parchment);
+    }
+    .hero-standing svg {
+      width: 16px;
+      height: 16px;
+      stroke: var(--gold);
+      fill: none;
+    }
+
+    /* ==========================================================================
+       07. ABOUT THE ADVOCATES
+       ========================================================================== */
+    section#about {
+      background-color: var(--bg-navy);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .dual-counsel-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2.5rem;
+      margin-bottom: 4rem;
+    }
+
+    .counsel-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 2.8rem 2.2rem;
+      position: relative;
+      transition: var(--transition);
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .counsel-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--gold);
+      box-shadow: var(--shadow-md);
+    }
+
+    .counsel-tag {
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: var(--blood-red);
+      color: #FFFFFF;
+      font-size: 0.65rem;
+      font-family: var(--font-cinzel);
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      padding: 0.4rem 1rem;
+      border-radius: 0 0 0 4px;
+    }
+    .counsel-tag.consultant {
+      background: #11263F;
+      border-left: 1px solid var(--gold);
+      border-bottom: 1px solid var(--gold);
+      color: var(--gold-light);
+    }
+
+    .counsel-header {
+      display: flex;
+      align-items: center;
+      gap: 1.4rem;
+      margin-bottom: 1.6rem;
+      padding-bottom: 1.4rem;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .counsel-avatar {
+      width: 80px;
+      height: 80px;
+      border: 1.5px solid var(--gold);
+      border-radius: 50%;
+      background: radial-gradient(circle, #1E334E 0%, #0A1422 80%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .counsel-avatar svg {
+      width: 48px;
+      height: 48px;
+      stroke: var(--gold);
+      fill: none;
+    }
+
+    .counsel-name {
+      font-family: var(--font-display);
+      font-size: 1.8rem;
+      color: var(--parchment);
+      font-weight: 600;
+      line-height: 1.2;
+    }
+    .counsel-role {
+      font-family: var(--font-cinzel);
+      font-size: 0.8rem;
+      color: var(--gold);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-top: 0.2rem;
+      font-weight: 700;
+    }
+    .counsel-degrees {
+      font-size: 0.78rem;
+      color: var(--parchment-dim);
+      font-family: var(--font-cinzel);
+      margin-top: 0.2rem;
+    }
+
+    .counsel-bio {
+      font-size: 0.94rem;
+      color: var(--parchment-dim);
+      line-height: 1.8;
+      font-weight: 300;
+      margin-bottom: 1.5rem;
+    }
+
+    .counsel-specialties {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: auto;
+    }
+    .counsel-specialty-pill {
+      font-size: 0.72rem;
+      font-family: var(--font-cinzel);
+      background: rgba(201, 168, 76, 0.08);
+      border: 1px solid var(--border-subtle);
+      color: var(--parchment);
+      padding: 0.28rem 0.75rem;
+      border-radius: 2px;
+    }
+
+    /* 4 Chamber Pillars */
+    .chamber-pillars {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+    }
+    .pillar-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-top: 3px solid var(--gold);
+      padding: 1.8rem 1.4rem;
+      text-align: center;
+      transition: var(--transition);
+    }
+    .pillar-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--gold);
+    }
+    .pillar-icon {
+      width: 36px;
+      height: 36px;
+      margin: 0 auto 0.9rem;
+      stroke: var(--gold);
+      fill: none;
+    }
+    .pillar-title {
+      font-family: var(--font-cinzel);
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--parchment);
+      margin-bottom: 0.4rem;
+    }
+    .pillar-desc {
+      font-size: 0.8rem;
+      color: var(--parchment-dim);
+      line-height: 1.5;
+    }
+
+    /* ==========================================================================
+       08. PRACTICE AREAS & INTERACTIVE WEIGHING MACHINE
+       ========================================================================== */
+    section#practice {
+      background-color: var(--bg-navy-dark);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .interactive-scales-box {
+      max-width: 340px;
+      margin: 0 auto 3.5rem;
+      text-align: center;
+    }
+    .interactive-scales-svg {
+      width: 100%;
+      max-width: 240px;
+      height: 150px;
+    }
+    .scales-main-beam {
+      transform-origin: 120px 38px;
+      transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    .scales-caption {
+      font-family: var(--font-display);
+      font-style: italic;
+      color: var(--gold);
+      font-size: 1.05rem;
+      margin-top: 0.6rem;
+    }
+
+    .practice-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.8rem;
+    }
+
+    .practice-folder-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: 2px 14px 2px 2px;
+      padding: 2.4rem 1.6rem 1.8rem;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: var(--transition);
+      box-shadow: var(--shadow-sm);
+    }
+    .practice-folder-card:hover {
+      transform: translateY(-5px);
+      border-color: var(--gold);
+      box-shadow: var(--shadow-md);
+    }
+
+    .folder-tab {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: #17263C;
+      border-bottom: 1px solid var(--border-prominent);
+      border-right: 1px solid var(--border-prominent);
+      padding: 0.32rem 1rem;
+      font-size: 0.66rem;
+      font-family: var(--font-cinzel);
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--gold);
+      font-weight: 700;
+      border-radius: 0 0 5px 0;
+    }
+
+    .practice-icon {
+      width: 38px;
+      height: 38px;
+      margin-bottom: 1rem;
+      stroke: var(--gold);
+      fill: none;
+    }
+
+    .practice-title {
+      font-family: var(--font-display);
+      font-size: 1.4rem;
+      color: var(--parchment);
+      font-weight: 600;
+      margin-bottom: 1rem;
+      line-height: 1.25;
+    }
+
+    .practice-list {
+      list-style: none;
+      border-top: 1px dashed var(--border-subtle);
+      padding-top: 1rem;
+    }
+    .practice-list li {
+      font-size: 0.82rem;
+      color: var(--parchment-dim);
+      margin-bottom: 0.45rem;
+      padding-left: 1.1rem;
+      position: relative;
+      line-height: 1.5;
+    }
+    .practice-list li::before {
+      content: '§';
+      position: absolute;
+      left: 0;
+      color: var(--gold);
+      font-weight: 700;
+      font-family: var(--font-cinzel);
+    }
+
+    /* ==========================================================================
+       09. CASE VICTORIES & REDACTED LEGAL DOSSIERS
+       ========================================================================== */
+    section#cases {
+      background-color: var(--bg-navy);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .dossier-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+    }
+
+    .dossier-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-top: 3px solid var(--gold);
+      padding: 2.2rem 1.8rem;
+      position: relative;
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .dossier-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--gold);
+      box-shadow: var(--shadow-md);
+    }
+
+    .dossier-stamp {
+      position: absolute;
+      top: 1.2rem;
+      right: 1.2rem;
+      border: 1px solid var(--blood-red);
+      color: #E29B9B;
+      font-size: 0.6rem;
+      font-family: var(--font-cinzel);
+      font-weight: 800;
+      letter-spacing: 0.18em;
+      padding: 0.2rem 0.5rem;
+      border-radius: 2px;
+    }
+
+    .dossier-num {
+      font-size: 0.72rem;
+      font-family: var(--font-cinzel);
+      color: var(--gold);
+      letter-spacing: 0.12em;
+      margin-bottom: 0.4rem;
+    }
+
+    .dossier-title {
+      font-family: var(--font-display);
+      font-size: 1.35rem;
+      color: var(--parchment);
+      font-weight: 600;
+      margin-bottom: 0.8rem;
+      line-height: 1.3;
+    }
+
+    .dossier-parties {
+      font-size: 0.84rem;
+      color: var(--parchment-dim);
+      margin-bottom: 1.2rem;
+      line-height: 1.6;
+    }
+
+    .redacted-text {
+      background: #000000;
+      color: #000000;
+      padding: 0 4px;
+      border-radius: 2px;
+      user-select: none;
+      transition: background 0.25s, color 0.25s;
+    }
+    .dossier-card:hover .redacted-text {
+      background: rgba(139, 26, 26, 0.75);
+      color: var(--parchment);
+    }
+
+    .dossier-outcome {
+      background: rgba(201, 168, 76, 0.08);
+      border-left: 3px solid var(--gold);
+      padding: 0.8rem 1rem;
+      font-size: 0.84rem;
+      color: var(--parchment-muted);
+      line-height: 1.5;
+    }
+    .dossier-outcome strong {
+      display: block;
+      color: var(--gold);
+      font-family: var(--font-cinzel);
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 0.2rem;
+    }
+
+    /* ==========================================================================
+       10. WHY CHOOSE US & OUR COMMITMENT
+       ========================================================================== */
+    section#why-us {
+      background-color: var(--bg-navy-dark);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .why-split-layout {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 3.5rem;
+      align-items: start;
+    }
+
+    .why-matrix {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.4rem;
+    }
+
+    .why-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-left: 3px solid var(--gold);
+      padding: 1.5rem 1.3rem;
+      transition: var(--transition);
+    }
+    .why-card:hover {
+      transform: translateX(4px);
+      border-color: var(--gold);
+    }
+    .why-card-title {
+      font-size: 0.95rem;
+      font-family: var(--font-cinzel);
+      color: var(--parchment);
+      font-weight: 700;
+      margin-bottom: 0.4rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .why-card-title svg {
+      width: 16px;
+      height: 16px;
+      stroke: var(--gold);
+      fill: none;
+      flex-shrink: 0;
+    }
+    .why-card-desc {
+      font-size: 0.82rem;
+      color: var(--parchment-dim);
+      line-height: 1.55;
+    }
+
+    .covenant-card {
+      background: linear-gradient(145deg, #162438 0%, #09121E 100%);
+      border: 2px solid var(--gold);
+      outline: 1px dashed rgba(201, 168, 76, 0.4);
+      outline-offset: -8px;
+      padding: 2.8rem 2.2rem;
+      box-shadow: var(--shadow-md);
+    }
+    .covenant-title {
+      font-family: var(--font-cinzel);
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--parchment);
+      text-align: center;
+      margin-bottom: 0.4rem;
+      text-transform: uppercase;
+    }
+    .covenant-subtitle {
+      font-family: var(--font-display);
+      font-style: italic;
+      font-size: 1.05rem;
+      color: var(--gold);
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .covenant-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+    }
+    .covenant-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.9rem;
+      font-size: 0.86rem;
+      color: var(--parchment-muted);
+      line-height: 1.6;
+    }
+    .covenant-bullet {
+      width: 24px;
+      height: 24px;
+      border: 1px solid var(--gold);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--gold);
+      font-family: var(--font-cinzel);
+      font-weight: 700;
+      font-size: 0.72rem;
+      flex-shrink: 0;
+      background: rgba(201, 168, 76, 0.1);
+      margin-top: 2px;
+    }
+
+    /* ==========================================================================
+       11. 6-STEP LEGAL PROCESS
+       ========================================================================== */
+    section#process {
+      background-color: var(--bg-navy);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .process-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+    }
+
+    .process-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 2.2rem 1.8rem;
+      transition: var(--transition);
+      position: relative;
+    }
+    .process-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--gold);
+    }
+    .process-step-num {
+      font-family: var(--font-cinzel);
+      font-size: 2.4rem;
+      font-weight: 900;
+      color: rgba(201, 168, 76, 0.18);
+      line-height: 1;
+      margin-bottom: 0.8rem;
+    }
+    .process-step-title {
+      font-family: var(--font-display);
+      font-size: 1.35rem;
+      color: var(--parchment);
+      font-weight: 600;
+      margin-bottom: 0.6rem;
+    }
+    .process-step-desc {
+      font-size: 0.86rem;
+      color: var(--parchment-dim);
+      line-height: 1.6;
+    }
+
+    /* ==========================================================================
+       12. TESTIMONIALS AS AFFIDAVITS
+       ========================================================================== */
+    section#testimonials {
+      background-color: var(--bg-navy-dark);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .affidavit-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+    }
+
+    .affidavit-card {
+      background: #FDFBF7;
+      color: #1A2230;
+      border: 1px solid #D8D0C0;
+      padding: 2.5rem 2rem;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: var(--shadow-md);
+    }
+    .affidavit-card::before {
+      content: '';
+      position: absolute;
+      inset: 8px;
+      border: 1px solid rgba(139, 26, 26, 0.2);
+      pointer-events: none;
+    }
+
+    .affidavit-header {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+      padding-bottom: 0.6rem;
+      margin-bottom: 1.4rem;
+      text-align: center;
+    }
+    .affidavit-header-title {
+      font-family: var(--font-cinzel);
+      font-size: 0.76rem;
+      letter-spacing: 0.2em;
+      font-weight: 800;
+      color: #7A1919;
+    }
+    .affidavit-matter {
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      color: #666;
+      text-transform: uppercase;
+      margin-top: 2px;
+    }
+
+    .affidavit-quote {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      line-height: 1.65;
+      color: #1F2735;
+      margin-bottom: 1.6rem;
+    }
+
+    .affidavit-footer {
+      border-top: 1px dashed rgba(0, 0, 0, 0.2);
+      padding-top: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    .affiant-name {
+      font-family: var(--font-cinzel);
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: #101622;
+    }
+    .affiant-desc {
+      font-size: 0.74rem;
+      color: #666;
+    }
+    .notary-seal-stamp {
+      width: 44px;
+      height: 44px;
+      border: 1.5px solid #8B1A1A;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #8B1A1A;
+      font-family: var(--font-cinzel);
+      font-size: 0.44rem;
+      font-weight: 800;
+      text-align: center;
+      transform: rotate(-10deg);
+    }
+
+    /* ==========================================================================
+       13. LEGAL BLOG & HIGH COURT UPDATES
+       ========================================================================== */
+    section#insights {
+      background-color: var(--bg-navy);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .bulletin-bar {
+      background: #070D16;
+      border: 1px solid var(--border-subtle);
+      border-left: 4px solid var(--blood-red);
+      padding: 0.9rem 1.6rem;
+      margin-bottom: 3.5rem;
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+    }
+    .bulletin-tag {
+      font-family: var(--font-cinzel);
+      font-size: 0.72rem;
+      font-weight: 800;
+      color: #E29B9B;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-shrink: 0;
+    }
+    .bulletin-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--blood-red);
+      box-shadow: 0 0 6px rgba(178, 34, 34, 0.8);
+    }
+    .bulletin-msg {
+      font-size: 0.84rem;
+      color: var(--parchment);
+    }
+    .bulletin-msg a {
+      color: var(--gold-light);
+      text-decoration: underline;
+      margin-left: 0.5rem;
+    }
+
+    .articles-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+    }
+    .article-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 2.2rem 1.8rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: var(--transition);
+    }
+    .article-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--gold);
+    }
+    .article-tag {
+      font-family: var(--font-cinzel);
+      font-size: 0.68rem;
+      color: var(--gold);
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      margin-bottom: 0.6rem;
+      font-weight: 700;
+    }
+    .article-card-title {
+      font-family: var(--font-display);
+      font-size: 1.35rem;
+      color: var(--parchment);
+      font-weight: 600;
+      line-height: 1.3;
+      margin-bottom: 0.8rem;
+    }
+    .article-excerpt {
+      font-size: 0.86rem;
+      color: var(--parchment-dim);
+      line-height: 1.6;
+      margin-bottom: 1.4rem;
+    }
+    .article-btn {
+      font-family: var(--font-cinzel);
+      font-size: 0.74rem;
+      color: var(--gold);
+      background: none;
+      border: none;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      cursor: pointer;
+      padding: 0;
+    }
+    .article-btn:hover {
+      color: var(--parchment);
+    }
+
+    /* ==========================================================================
+       14. CREDENTIALS & CERTIFICATIONS
+       ========================================================================== */
+    section#credentials {
+      background-color: var(--bg-navy-dark);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .certs-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+    }
+    .cert-box {
+      background: var(--bg-card);
+      border: 2px solid var(--gold);
+      outline: 1px dashed rgba(201, 168, 76, 0.35);
+      outline-offset: -6px;
+      padding: 2.5rem 1.8rem;
+      text-align: center;
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition);
+    }
+    .cert-box:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-md);
+    }
+    .cert-seal {
+      width: 52px;
+      height: 52px;
+      border: 1.5px solid var(--gold);
+      border-radius: 50%;
+      margin: 0 auto 1.2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: radial-gradient(circle, rgba(201, 168, 76, 0.15) 0%, #060B12 85%);
+    }
+    .cert-seal svg {
+      width: 28px;
+      height: 28px;
+      stroke: var(--gold);
+      fill: none;
+    }
+    .cert-org {
+      font-family: var(--font-cinzel);
+      font-size: 0.74rem;
+      color: var(--gold);
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      margin-bottom: 0.4rem;
+      font-weight: 700;
+    }
+    .cert-name {
+      font-family: var(--font-display);
+      font-size: 1.35rem;
+      color: var(--parchment);
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+    .cert-desc {
+      font-size: 0.82rem;
+      color: var(--parchment-dim);
+      line-height: 1.55;
+    }
+
+    /* ==========================================================================
+       15. FREQUENTLY ASKED QUESTIONS
+       ========================================================================== */
+    section#faqs {
+      background-color: var(--bg-navy);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .faq-wrapper {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    .faq-item {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      margin-bottom: 1rem;
+      transition: border-color 0.25s;
+    }
+    .faq-item.active {
+      border-color: var(--gold);
+    }
+    .faq-btn {
+      width: 100%;
+      background: transparent;
+      border: none;
+      padding: 1.3rem 1.6rem;
+      text-align: left;
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      color: var(--parchment);
+      font-weight: 600;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+    }
+    .faq-btn:hover {
+      color: var(--gold-light);
+    }
+    .faq-plus {
+      font-size: 1.4rem;
+      color: var(--gold);
+      font-family: var(--font-cinzel);
+      transition: transform 0.3s;
+    }
+    .faq-item.active .faq-plus {
+      transform: rotate(45deg);
+    }
+    .faq-body {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.35s ease, padding 0.35s ease;
+      padding: 0 1.6rem;
+      font-size: 0.92rem;
+      color: var(--parchment-dim);
+      line-height: 1.75;
+      background: #09121E;
+    }
+    .faq-item.active .faq-body {
+      max-height: 250px;
+      padding: 0.4rem 1.6rem 1.4rem;
+    }
+
+    /* ==========================================================================
+       16. PETITION FORM & GOOGLE MAPS
+       ========================================================================== */
+    section#contact {
+      background-color: var(--bg-navy-dark);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 0.95fr 1.05fr;
+      gap: 3.5rem;
+      margin-bottom: 4rem;
+    }
+
+    .chambers-info-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 2.6rem 2.2rem;
+    }
+
+    .info-header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding-bottom: 1.2rem;
+      border-bottom: 1px solid var(--border-subtle);
+      margin-bottom: 1.8rem;
+    }
+
+    .info-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .info-icon {
+      width: 18px;
+      height: 18px;
+      stroke: var(--gold);
+      fill: none;
+      flex-shrink: 0;
+      margin-top: 3px;
+    }
+    .info-label {
+      font-size: 0.7rem;
+      font-family: var(--font-cinzel);
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.2rem;
+    }
+    .info-val {
+      font-size: 0.92rem;
+      color: var(--parchment);
+      line-height: 1.5;
+    }
+    .info-val a {
+      color: var(--parchment);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .info-val a:hover {
+      color: var(--gold-light);
+    }
+
+    .hours-table {
+      background: #08111D;
+      border: 1px solid var(--border-subtle);
+      padding: 1.3rem 1.5rem;
+      margin: 1.8rem 0;
+    }
+    .hours-head {
+      font-family: var(--font-cinzel);
+      font-size: 0.74rem;
+      color: var(--gold);
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      margin-bottom: 0.7rem;
+      font-weight: 700;
+    }
+    .hours-line {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.82rem;
+      color: var(--parchment-dim);
+      padding: 0.35rem 0;
+      border-bottom: 1px dashed rgba(201, 168, 76, 0.12);
+    }
+    .hours-line:last-child {
+      border-bottom: none;
+    }
+
+    .petition-panel {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 2.8rem 2.4rem;
+    }
+
+    .petition-header {
+      font-family: var(--font-cinzel);
+      font-size: 0.8rem;
+      color: var(--gold);
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .form-2-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.2rem;
+    }
+    .form-group {
+      margin-bottom: 1.2rem;
+    }
+    .form-label {
+      display: block;
+      font-family: var(--font-cinzel);
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--parchment-muted);
+      margin-bottom: 0.4rem;
+      font-weight: 600;
+    }
+    .form-input {
+      width: 100%;
+      background: #08101C;
+      border: 1px solid var(--border-subtle);
+      padding: 0.8rem 1rem;
+      color: var(--parchment);
+      font-family: var(--font-sans);
+      font-size: 0.9rem;
+      outline: none;
+      transition: border-color 0.25s;
+      border-radius: 2px;
+    }
+    .form-input:focus {
+      border-color: var(--gold);
+      box-shadow: 0 0 10px rgba(201, 168, 76, 0.25);
+    }
+    select.form-input {
+      appearance: none;
+      -webkit-appearance: none;
+      background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23C9A84C' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+      background-repeat: no-repeat;
+      background-position: right 1rem center;
+      background-size: 14px;
+    }
+    select.form-input option {
+      background: #08101C;
+      color: var(--parchment);
+    }
+    textarea.form-input {
+      resize: vertical;
+      min-height: 90px;
+    }
+
+    .btn-submit {
+      width: 100%;
+      background: var(--gold);
+      color: #060B12;
+      border: none;
+      padding: 1.1rem;
+      font-family: var(--font-cinzel);
+      font-weight: 800;
+      font-size: 0.86rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: var(--transition);
+      margin-top: 0.4rem;
+    }
+    .btn-submit:hover {
+      background: var(--parchment);
+      box-shadow: 0 8px 25px rgba(201, 168, 76, 0.35);
+    }
+
+    .form-ack {
+      display: none;
+      margin-top: 1.2rem;
+      padding: 1.1rem;
+      background: rgba(201, 168, 76, 0.1);
+      border: 1px solid var(--gold);
+      color: var(--gold-light);
+      font-size: 0.85rem;
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    .map-box {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 1.2rem;
+    }
+    .map-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.9rem;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+    }
+    .map-title {
+      font-family: var(--font-cinzel);
+      font-size: 0.88rem;
+      color: var(--parchment);
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .map-frame {
+      width: 100%;
+      height: 360px;
+      border: 1px solid var(--border-subtle);
+      filter: grayscale(85%) invert(90%) contrast(110%);
+      transition: filter 0.3s;
+    }
+    .map-frame:hover {
+      filter: grayscale(10%) invert(0%);
+    }
+
+    /* ==========================================================================
+       17. FOOTER & MODALS
+       ========================================================================== */
+    footer#main-footer {
+      background: #04080F;
+      border-top: 1px solid var(--border-subtle);
+      padding: 4.5rem 0 2rem;
+    }
+
+    .bci-card {
+      background: #08101C;
+      border: 1px solid rgba(139, 26, 26, 0.4);
+      border-left: 4px solid var(--blood-red);
+      padding: 1.6rem 2rem;
+      margin-bottom: 3.5rem;
+    }
+    .bci-title {
+      font-family: var(--font-cinzel);
+      font-size: 0.74rem;
+      font-weight: 800;
+      color: #E29B9B;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+    }
+    .bci-desc {
+      font-size: 0.8rem;
+      color: var(--parchment-dim);
+      line-height: 1.65;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr 1fr;
+      gap: 3.5rem;
+      margin-bottom: 3.5rem;
+    }
+    .footer-title {
+      font-family: var(--font-cinzel);
+      font-size: 0.92rem;
+      font-weight: 700;
+      color: var(--parchment);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 1.2rem;
+      border-bottom: 1px solid var(--border-subtle);
+      padding-bottom: 0.5rem;
+    }
+    .footer-links {
+      list-style: none;
+    }
+    .footer-links li {
+      margin-bottom: 0.6rem;
+    }
+    .footer-links a {
+      color: var(--parchment-dim);
+      text-decoration: none;
+      font-size: 0.82rem;
+      transition: color 0.2s;
+    }
+    .footer-links a:hover {
+      color: var(--gold);
+    }
+
+    .seo-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 1.8rem;
+      padding-top: 1.8rem;
+      border-top: 1px solid rgba(201, 168, 76, 0.12);
+    }
+    .seo-tag {
+      font-size: 0.7rem;
+      color: var(--parchment-dim);
+      background: #08101C;
+      border: 1px solid rgba(201, 168, 76, 0.15);
+      padding: 0.25rem 0.65rem;
+      border-radius: 2px;
+    }
+
+    .footer-bottom {
+      margin-top: 2.5rem;
+      padding-top: 1.6rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      font-size: 0.78rem;
+      color: var(--parchment-dim);
+    }
+    .footer-bottom a {
+      color: var(--parchment-dim);
+      text-decoration: underline;
+      margin-left: 1rem;
+    }
+    .footer-bottom a:hover {
+      color: var(--gold);
+    }
+
+    /* Modal */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(4, 8, 15, 0.88);
+      backdrop-filter: blur(10px);
+      z-index: 10000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+    }
+    .modal-backdrop.active {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .modal-card {
+      background: var(--bg-card);
+      border: 2px solid var(--gold);
+      outline: 1px dashed rgba(201, 168, 76, 0.35);
+      outline-offset: -6px;
+      max-width: 640px;
+      width: 100%;
+      padding: 2.8rem 2.2rem;
+      position: relative;
+      box-shadow: var(--shadow-lg);
+      max-height: 85vh;
+      overflow-y: auto;
+    }
+    .modal-close {
+      position: absolute;
+      top: 1.2rem;
+      right: 1.4rem;
+      font-size: 1.8rem;
+      color: var(--gold);
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+
+    /* ==========================================================================
+       18. RESPONSIVE MEDIA QUERIES
+       ========================================================================== */
+    @media (max-width: 1100px) {
+      .practice-grid { grid-template-columns: repeat(2, 1fr); }
+      .process-grid { grid-template-columns: repeat(2, 1fr); }
+      .dossier-grid { grid-template-columns: repeat(2, 1fr); }
+      .affidavit-grid { grid-template-columns: repeat(2, 1fr); }
+      .dual-counsel-grid { grid-template-columns: 1fr; }
+      .chamber-pillars { grid-template-columns: repeat(2, 1fr); }
+      .why-split-layout { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 860px) {
+      .nav-links, .top-utility-right a.btn { display: none; }
+      .mobile-menu-btn { display: block; }
+      .contact-grid { grid-template-columns: 1fr; }
+      .form-2-col { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr; gap: 2rem; }
+      .articles-grid { grid-template-columns: 1fr; }
+      .certs-grid { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 600px) {
+      section { padding: 4.5rem 0; }
+      .practice-grid { grid-template-columns: 1fr; }
+      .process-grid { grid-template-columns: 1fr; }
+      .dossier-grid { grid-template-columns: 1fr; }
+      .affidavit-grid { grid-template-columns: 1fr; }
+      .why-matrix { grid-template-columns: 1fr; }
+      .chamber-pillars { grid-template-columns: 1fr; }
+      .counsel-header { flex-direction: column; align-items: flex-start; }
+      .hero-actions { flex-direction: column; }
+      .btn { width: 100%; }
+      .footer-bottom { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ==========================================================================
+       02. PRELOADER (3.5s WEIGHING MACHINE & SILK RIBBON ANIMATION)
+       ========================================================================== -->
+  <div id="preloader">
+    <div class="preloader-emblem">
+      <!-- Animated Balance Scales / Weighing Machine -->
+      <svg class="preloader-scales-svg" viewBox="0 0 180 150">
+        <!-- Static Pillar & Base -->
+        <path d="M90 20 V130" stroke="#C9A84C" stroke-width="3.5" stroke-linecap="round"/>
+        <path d="M65 130 H115" stroke="#C9A84C" stroke-width="4.5" stroke-linecap="round"/>
+        <circle cx="90" cy="38" r="5" fill="#E5CF8E"/>
+        <!-- Animated Pivoting Beam -->
+        <g class="anim-beam">
+          <path d="M25 38 H155" stroke="#C9A84C" stroke-width="3" stroke-linecap="round"/>
+          <!-- Left Strings & Plate -->
+          <path d="M25 38 L10 85 H40 Z" stroke="#C9A84C" stroke-width="1.5" fill="rgba(201,168,76,0.12)"/>
+          <!-- Right Strings & Plate -->
+          <path d="M155 38 L140 85 H170 Z" stroke="#C9A84C" stroke-width="1.5" fill="rgba(201,168,76,0.12)"/>
+        </g>
+      </svg>
+
+      <!-- Animated Silk Ribbon Unfurling -->
+      <svg class="preloader-ribbon-svg" viewBox="0 0 220 50">
+        <path class="ribbon-path" d="M 10 35 C 50 15, 80 45, 110 25 C 140 5, 170 35, 210 20" fill="none" stroke="#8B1A1A" stroke-width="3" stroke-linecap="round"/>
+      </svg>
+
+      <!-- Wax Seal Stamp -->
+      <div class="preloader-seal-wax">100</div>
+    </div>
+
+    <div class="preloader-title">100 Law Chamber</div>
+    <div class="preloader-subtitle">Madras High Court • Chennai</div>
+    
+    <div class="preloader-progress-bar">
+      <div class="preloader-progress-fill"></div>
+    </div>
+    
+    <div class="preloader-status" id="preloader-status">Balancing Scales of Justice...</div>
+  </div>
+
+  <!-- Cursor Follower (Refined subtle halo) -->
+  <div id="cursor-follower"></div>
+  <div id="cursor-dot"></div>
+
+  <!-- ==========================================================================
+       05. TOP UTILITY BAR & MAIN NAVIGATION
+       ========================================================================== -->
+  <div class="top-utility-bar">
+    <div class="container top-utility-inner">
+      <div class="top-utility-left">
+        <span class="top-item">
+          <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke-width="1.8"></path><circle cx="12" cy="10" r="3" stroke-width="1.8"></circle></svg>
+          <span data-i18n="top_address">100 Law Chamber, Madras High Court, Chennai, Tamil Nadu, India</span>
+        </span>
+        <span class="top-item">
+          <svg viewBox="0 0 24 24"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" stroke-width="1.8"></path></svg>
+          <span data-i18n="top_chambers">Chambers of Senior Adv. Mohamed Ansaree & Adv. B. Kannan</span>
+        </span>
+      </div>
+      <div class="top-utility-right">
+        <a class="top-item" href="tel:+919840100603" style="color:var(--gold); font-weight:700; text-decoration:none;">
+          <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" stroke-width="1.8"></path></svg>
+          +91 9840100603
+        </a>
+        <!-- Bilingual English & Tamil Switcher -->
+        <div class="lang-toggle-box">
+          <button class="lang-btn active" id="lang-en" onclick="setLanguage('en')">English</button>
+          <button class="lang-btn" id="lang-ta" onclick="setLanguage('ta')">தமிழ்</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="main-header" id="main-header">
+    <div class="container nav-container">
+      <a class="brand-group" href="#hero">
+        <div class="chamber-seal-icon">
+          <span class="seal-no">100</span>
+          <span class="seal-txt">CHAMBER</span>
+        </div>
+        <div class="brand-titles">
+          <span class="brand-title-main">100 Law Chamber</span>
+          <span class="brand-title-sub" data-i18n="brand_sub">Madras High Court • Chennai</span>
+        </div>
+      </a>
+
+      <ul class="nav-links">
+        <li><a class="nav-link" href="#hero" data-i18n="nav_home">Home</a></li>
+        <li><a class="nav-link" href="#about" data-i18n="nav_about">About Advocates</a></li>
+        <li><a class="nav-link" href="#practice" data-i18n="nav_practice">Practice Areas</a></li>
+        <li><a class="nav-link" href="#cases" data-i18n="nav_cases">Case Victories</a></li>
+        <li><a class="nav-link" href="#why-us" data-i18n="nav_why">Why Choose Us</a></li>
+        <li><a class="nav-link" href="#process" data-i18n="nav_process">Legal Process</a></li>
+        <li><a class="nav-link" href="#testimonials" data-i18n="nav_testimonials">Affidavits</a></li>
+        <li><a class="nav-link" href="#insights" data-i18n="nav_insights">Legal Blog</a></li>
+        <li><a class="nav-link" href="#contact" data-i18n="nav_contact">Petition & Contact</a></li>
+      </ul>
+
+      <div style="display:flex; align-items:center; gap:0.8rem;">
+        <a class="btn btn-wa" href="https://wa.me/919840100603" target="_blank" rel="noopener noreferrer" style="padding: 0.6rem 1.1rem; font-size: 0.74rem;">
+          WhatsApp
+        </a>
+        <a class="btn btn-gold" href="#contact" style="padding: 0.6rem 1.2rem; font-size: 0.74rem;" data-i18n="btn_file_brief">
+          File Brief
+        </a>
+      </div>
+
+      <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" id="mobile-drawer">
+    <button class="drawer-close" id="drawer-close">&times;</button>
+    <a class="mobile-link" href="#hero" onclick="closeDrawer()" data-i18n="nav_home">Home</a>
+    <a class="mobile-link" href="#about" onclick="closeDrawer()" data-i18n="nav_about">About Advocates</a>
+    <a class="mobile-link" href="#practice" onclick="closeDrawer()" data-i18n="nav_practice">Practice Areas</a>
+    <a class="mobile-link" href="#cases" onclick="closeDrawer()" data-i18n="nav_cases">Case Victories</a>
+    <a class="mobile-link" href="#why-us" onclick="closeDrawer()" data-i18n="nav_why">Why Choose Us</a>
+    <a class="mobile-link" href="#process" onclick="closeDrawer()" data-i18n="nav_process">Legal Process</a>
+    <a class="mobile-link" href="#testimonials" onclick="closeDrawer()" data-i18n="nav_testimonials">Affidavits</a>
+    <a class="mobile-link" href="#insights" onclick="closeDrawer()" data-i18n="nav_insights">Legal Blog</a>
+    <a class="mobile-link" href="#contact" onclick="closeDrawer()" data-i18n="nav_contact">Petition & Contact</a>
+  </div>
+
+  <main>
+
+    <!-- ==========================================================================
+         06. HERO SECTION
+         ========================================================================== -->
+    <section id="hero">
+      <!-- Watermark Background Seal -->
+      <svg class="hero-watermark" viewBox="0 0 500 500" fill="none">
+        <circle cx="250" cy="250" r="235" stroke="#C9A84C" stroke-width="3" stroke-dasharray="6 6"/>
+        <circle cx="250" cy="250" r="215" stroke="#C9A84C" stroke-width="2"/>
+        <path d="M250 100 V370" stroke="#C9A84C" stroke-width="4"/>
+        <path d="M150 160 H350" stroke="#C9A84C" stroke-width="4"/>
+        <path d="M150 160 L110 240 H190 Z" stroke="#C9A84C" stroke-width="2" fill="rgba(201,168,76,0.06)"/>
+        <path d="M350 160 L310 240 H390 Z" stroke="#C9A84C" stroke-width="2" fill="rgba(201,168,76,0.06)"/>
+        <path d="M210 370 H290" stroke="#C9A84C" stroke-width="6"/>
+      </svg>
+
+      <div class="hero-content">
+        <div class="hero-badge">
+          <svg viewBox="0 0 24 24"><path d="M12 2L3 7v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-9-5z"></path></svg>
+          <span data-i18n="hero_badge">100 Law Chamber • Madras High Court</span>
+        </div>
+
+        <h1 class="hero-title" data-i18n="hero_title">
+          Mr. Mohamed Ansaree & B. Kannan
+        </h1>
+
+        <div class="hero-credentials-row">
+          <span class="hero-cred-pill" data-i18n="hero_pill_1">Mr. Mohamed Ansaree, Senior Advocate, B.Com, B.L.</span>
+          <span class="hero-cred-pill" data-i18n="hero_pill_2">B. Kannan, Advocate, MBA., M.Com., M.Phil, B.L.</span>
+        </div>
+
+        <div class="hero-tagline" data-i18n="hero_tagline">
+          “Committed to Justice. Dedicated to Protecting Your Rights.”
+        </div>
+
+        <p class="hero-lead-text" data-i18n="hero_narrative">
+          At B. Kannan Advocate Office, we provide professional, ethical, and result-oriented legal services to individuals, businesses, and organizations. We are committed to delivering practical legal solutions with integrity, confidentiality, and dedication before the Madras High Court, District Courts, and appellate forums.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-gold" href="#contact">
+            <svg style="width:15px;height:15px;fill:none;stroke:currentColor;" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" stroke-width="2"></path><polyline points="14 2 14 8 20 8" stroke-width="2"></polyline></svg>
+            <span data-i18n="btn_book_consult">Book Consultation / File Brief</span>
+          </a>
+          <a class="btn btn-ghost" href="tel:+919840100603">
+            <svg style="width:15px;height:15px;fill:none;stroke:currentColor;" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" stroke-width="2"></path></svg>
+            <span data-i18n="btn_call_direct">Call: +91 9840100603</span>
+          </a>
+          <a class="btn btn-wa" href="https://wa.me/919840100603" target="_blank" rel="noopener noreferrer">
+            <span data-i18n="btn_wa_consult">WhatsApp Consultation</span>
+          </a>
+        </div>
+
+        <div class="hero-standing">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke-width="2"></circle><path d="M12 6v6l4 2" stroke-width="2"></path></svg>
+          <span data-i18n="hero_ticker">Practicing before the Madras High Court, Subordinate Courts, Tribunals & Legal Forums</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+       07. ABOUT THE ADVOCATES
+       ========================================================================== -->
+    <section id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label" data-i18n="about_label">Dual Counsel Leadership</span>
+          <h2 class="section-heading" data-i18n="about_heading">About the Advocates</h2>
+          <div class="gold-divider"></div>
+        </div>
+
+        <div class="dual-counsel-grid">
+          <!-- Counsel 1 -->
+          <div class="counsel-card">
+            <span class="counsel-tag" data-i18n="badge_senior">Senior Counsel</span>
+            <div>
+              <div class="counsel-header">
+                <div class="counsel-avatar">
+                  <svg viewBox="0 0 100 100">
+                    <circle cx="50" cy="35" r="18" stroke-width="1.8" fill="rgba(201,168,76,0.12)"/>
+                    <path d="M24 82 C24 62 36 54 50 54 C64 54 76 62 76 82" stroke-width="1.8" fill="rgba(201,168,76,0.06)"/>
+                    <polygon points="47,54 44,72 50,70 50,54" fill="#F8F5EE"/>
+                    <polygon points="53,54 56,72 50,70 50,54" fill="#F8F5EE"/>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="counsel-name">Mr. Mohamed Ansaree</h3>
+                  <div class="counsel-role" data-i18n="ansaree_role">Senior Advocate</div>
+                  <div class="counsel-degrees">B.Com, B.L. • Madras High Court Bar</div>
+                </div>
+              </div>
+              <p class="counsel-bio" data-i18n="ansaree_bio_1">
+                With decades of eminent standing before the Madras High Court and appellate benches, Senior Advocate Mr. Mohamed Ansaree brings formidable jurisprudence, profound trial acumen, and masterly appellate guidance. His advisory spans complex civil appeals, constitutional scrutiny, major property suits, and corporate litigation.
+              </p>
+              <p class="counsel-bio" data-i18n="ansaree_bio_2">
+                As Senior Counsel at 100 Law Chamber, he leads critical legal strategy and high-stakes litigation, mentoring client matters with exacting scrutiny and seasoned court craft.
+              </p>
+            </div>
+            <ul class="counsel-specialties">
+              <li class="counsel-specialty-pill">High Court Appellate Practice</li>
+              <li class="counsel-specialty-pill">Constitutional Writ Jurisdiction</li>
+              <li class="counsel-specialty-pill">Complex Civil & Title Appeals</li>
+              <li class="counsel-specialty-pill">Strategic Arbitration & Advisory</li>
+            </ul>
+          </div>
+
+          <!-- Counsel 2 -->
+          <div class="counsel-card">
+            <span class="counsel-tag consultant" data-i18n="badge_consultant">Advocate & Legal Consultant</span>
+            <div>
+              <div class="counsel-header">
+                <div class="counsel-avatar">
+                  <svg viewBox="0 0 100 100">
+                    <circle cx="50" cy="35" r="18" stroke-width="1.8" fill="rgba(201,168,76,0.12)"/>
+                    <path d="M24 82 C24 62 36 54 50 54 C64 54 76 62 76 82" stroke-width="1.8" fill="rgba(201,168,76,0.06)"/>
+                    <polygon points="47,54 44,72 50,70 50,54" fill="#F8F5EE"/>
+                    <polygon points="53,54 56,72 50,70 50,54" fill="#F8F5EE"/>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="counsel-name">B. Kannan</h3>
+                  <div class="counsel-role" data-i18n="kannan_role">Advocate & Legal Consultant</div>
+                  <div class="counsel-degrees">MBA., M.Com., M.Phil, B.L.</div>
+                </div>
+              </div>
+              <p class="counsel-bio" data-i18n="kannan_bio_1">
+                Advocate B. Kannan is a dedicated legal professional practicing before the Madras High Court, District Courts, and various legal forums. With extensive experience in handling civil, criminal, family, property, corporate, and constitutional matters, he is committed to providing reliable legal guidance and effective representation.
+              </p>
+              <p class="counsel-bio" data-i18n="kannan_bio_2">
+                <strong>Our Approach:</strong> "Professionalism, transparency, and client-focused legal solutions." By coupling advanced business management and commerce degrees with rigorous legal craft, he provides multidimensional strategic solutions for clients.
+              </p>
+            </div>
+            <ul class="counsel-specialties">
+              <li class="counsel-specialty-pill">Civil & Criminal Litigation</li>
+              <li class="counsel-specialty-pill">Property Title Verification</li>
+              <li class="counsel-specialty-pill">Corporate & Commercial Advisory</li>
+              <li class="counsel-specialty-pill">Matrimonial & Consumer Matters</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 4 Pillars -->
+        <div class="chamber-pillars">
+          <div class="pillar-card">
+            <svg class="pillar-icon" viewBox="0 0 24 24"><path d="M3 21h18M5 21V10M19 21V10M2 10l10-6l10 6H2z" stroke-width="1.8"></path></svg>
+            <div class="pillar-title">High Court Standing</div>
+            <div class="pillar-desc">Daily appearances before Madras High Court, City Civil, and Sessions benches</div>
+          </div>
+          <div class="pillar-card">
+            <svg class="pillar-icon" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15z" stroke-width="1.8"></path></svg>
+            <div class="pillar-title">Multi-Disciplinary</div>
+            <div class="pillar-desc">MBA, M.Com, M.Phil, B.L. — Commercial, analytical, and legal rigor combined</div>
+          </div>
+          <div class="pillar-card">
+            <svg class="pillar-icon" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke-width="1.8"></path></svg>
+            <div class="pillar-title">100 Law Chamber</div>
+            <div class="pillar-desc">Prestigious chamber secretariat within the Madras High Court precinct</div>
+          </div>
+          <div class="pillar-card">
+            <svg class="pillar-icon" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke-width="1.8"></path></svg>
+            <div class="pillar-title">Bar Council Standing</div>
+            <div class="pillar-desc">Strict adherence to Bar Council of India ethics, client privacy, and advocacy excellence</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+       08. PRACTICE AREAS & INTERACTIVE WEIGHING MACHINE
+       ========================================================================== -->
+    <section id="practice">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label" data-i18n="practice_label">Legal Competencies</span>
+          <h2 class="section-heading" data-i18n="practice_heading">Our Practice Areas</h2>
+          <div class="gold-divider"></div>
+        </div>
+
+        <!-- Interactive Weighing Machine -->
+        <div class="interactive-scales-box">
+          <svg class="interactive-scales-svg" viewBox="0 0 240 150">
+            <path d="M120 18 V130" stroke="#C9A84C" stroke-width="3" stroke-linecap="round"/>
+            <path d="M95 130 H145" stroke="#C9A84C" stroke-width="4.5" stroke-linecap="round"/>
+            <circle cx="120" cy="38" r="5" fill="#E5CF8E"/>
+            <g class="scales-main-beam" id="interactive-beam">
+              <path d="M35 38 H205" stroke="#C9A84C" stroke-width="3" stroke-linecap="round"/>
+              <path d="M35 38 L15 88 H55 Z" stroke="#C9A84C" stroke-width="1.6" fill="rgba(201,168,76,0.12)"/>
+              <path d="M205 38 L185 88 H225 Z" stroke="#C9A84C" stroke-width="1.6" fill="rgba(201,168,76,0.12)"/>
+            </g>
+          </svg>
+          <div class="scales-caption" data-i18n="scales_caption">
+            "Justice tilts only with evidence, statute, and unshakeable truth."
+          </div>
+        </div>
+
+        <div class="practice-grid">
+          <!-- 1. Civil Law -->
+          <article class="practice-folder-card" onmouseenter="tiltInteractiveScales(-8)" onmouseleave="tiltInteractiveScales(0)">
+            <div class="folder-tab">Area 01</div>
+            <div>
+              <svg class="practice-icon" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" stroke-width="1.8"></path><polyline points="14 2 14 8 20 8" stroke-width="1.8"></polyline><line x1="16" y1="13" x2="8" y2="13" stroke-width="1.8"></line><line x1="16" y1="17" x2="8" y2="17" stroke-width="1.8"></line></svg>
+              <h3 class="practice-title" data-i18n="p1_title">1. Civil Law</h3>
+            </div>
+            <ul class="practice-list">
+              <li>Civil Litigation</li>
+              <li>Property Disputes</li>
+              <li>Partition Suits</li>
+              <li>Injunction Suits</li>
+              <li>Money Recovery Cases</li>
+              <li>Contract Disputes</li>
+              <li>Specific Performance Suits</li>
+              <li>Declaration Suits</li>
+              <li>Recovery Proceedings</li>
+            </ul>
+          </article>
+
+          <!-- 2. Criminal Law -->
+          <article class="practice-folder-card" onmouseenter="tiltInteractiveScales(8)" onmouseleave="tiltInteractiveScales(0)">
+            <div class="folder-tab">Area 02</div>
+            <div>
+              <svg class="practice-icon" viewBox="0 0 24 24"><path d="M14 13l-7.5 7.5a2.12 2.12 0 1 1-3-3L11 10" stroke-width="1.8" stroke-linecap="round"></path><path d="M16 8l3-3a1.5 1.5 0 0 1 2.1 2.1l-3 3" stroke-width="1.8" stroke-linecap="round"></path><rect x="10" y="5" width="8" height="6" rx="1" transform="rotate(-45 10 5)" stroke-width="1.8"></rect></svg>
+              <h3 class="practice-title" data-i18n="p2_title">2. Criminal Law</h3>
+            </div>
+            <ul class="practice-list">
+              <li>Criminal Defence</li>
+              <li>Bail Applications</li>
+              <li>Anticipatory Bail</li>
+              <li>FIR Quashing Petitions</li>
+              <li>Criminal Trials</li>
+              <li>Criminal Appeals</li>
+              <li>Police Complaints</li>
+              <li>Cyber Crime Matters</li>
+              <li>Cheque Bounce (NI Act Sec 138)</li>
+            </ul>
+          </article>
+
+          <!-- 3. Family Law -->
+          <article class="practice-folder-card" onmouseenter="tiltInteractiveScales(-6)" onmouseleave="tiltInteractiveScales(0)">
+            <div class="folder-tab">Area 03</div>
+            <div>
+              <svg class="practice-icon" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke-width="1.8"></path><circle cx="9" cy="7" r="4" stroke-width="1.8"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87" stroke-width="1.8"></path><path d="M16 3.13a4 4 0 0 1 0 7.75" stroke-width="1.8"></path></svg>
+              <h3 class="practice-title" data-i18n="p3_title">3. Family Law</h3>
+            </div>
+            <ul class="practice-list">
+              <li>Divorce Proceedings</li>
+              <li>Mutual Consent Divorce</li>
+              <li>Child Custody</li>
+              <li>Maintenance Cases</li>
+              <li>Domestic Violence Cases</li>
+              <li>Restitution of Conjugal Rights</li>
+              <li>Adoption Matters</li>
+              <li>Guardianship Matters</li>
+            </ul>
+          </article>
+
+          <!-- 4. Property & Real Estate Law -->
+          <article class="practice-folder-card" onmouseenter="tiltInteractiveScales(6)" onmouseleave="tiltInteractiveScales(0)">
+            <div class="folder-tab">Area 04</div>
+            <div>
+              <svg class="practice-icon" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" stroke-width="1.8"></path><polyline points="9 22 9 12 15 12 15 22" stroke-width="1.8"></polyline></svg>
+              <h3 class="practice-title" data-i18n="p4_title">4. Property & Real Estate</h3>
+            </div>
+            <ul class="practice-list">
+              <li>Property Legal Opinion</li>
+              <li>30-Year Title Verification</li>
+              <li>Sale Agreements & Deeds</li>
+              <li>Gift & Settlement Deeds</li>
+              <li>Partition & Release Deeds</li>
+              <li>Encumbrance Verification</li>
+              <li>Patta and Revenue Matters</li>
+            </ul>
+          </article>
+
+          <!-- 5. Registration & Documentation -->
+          <article class="practice-folder-card" onmouseenter="tiltInteractiveScales(-7)" onmouseleave="tiltInteractiveScales(0)">
+            <div class="folder-tab">Area 05</div>
+            <div>
+              <svg class="practice-icon" viewBox="0 0 24 24"><path d="M12 20h9" stroke-width="1.8"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" stroke-width="1.8"></path></svg>
+              <h3 class="practice-title" data-i18n="p5_title">5. Documentation</h3>
+            </div>
+            <ul class="practice-list">
+              <li>Property & Will Registration</li>
+              <li>Gift & Mortgage Registration</li>
+              <li>Power of Attorney (POA)</li>
+              <li>Rental Agreements</li>
+              <li>Partnership Deeds & MoU</li>
+              <li>Legal Agreements & Affidavits</li>
+              <li>Legal Notices & Reply Notices</li>
+            </ul>
+          </article>
+
+          <!-- 6. High Court Practice -->
+          <article class="practice-folder-card" onmouseenter="tiltInteractiveScales(7)" onmouseleave="tiltInteractiveScales(0)">
+            <div class="folder-tab">Area 06</div>
+            <div>
+              <svg class="practice-icon" viewBox="0 0 24 24"><line x1="12" y1="3" x2="12" y2="21" stroke-width="1.8"></line><line x1="5" y1="7" x2="19" y2="7" stroke-width="1.8"></line><path d="M5 7L2 14h6L5 7z" stroke-width="1.8"></path><path d="M19 7l-3 7h6l-3-7z" stroke-width="1.8"></path><line x1="9" y1="21" x2="15" y2="21" stroke-width="1.8"></line></svg>
+              <h3 class="practice-title" data-i18n="p6_title">6. High Court Practice</h3>
+            </div>
+            <ul class="practice-list">
+              <li>Writ Petitions (Art 226)</li>
+              <li>Criminal Original Petitions (Cr.O.P.)</li>
+              <li>Civil Revision Petitions (CRP)</li>
+              <li>Civil Miscellaneous Appeals (CMA)</li>
+              <li>Criminal Appeals & Revisions</li>
+              <li>Public Interest Litigations (PIL)</li>
+            </ul>
+          </article>
+
+          <!-- 7. Corporate & Commercial Law -->
+          <article class="practice-folder-card" onmouseenter="tiltInteractiveScales(-5)" onmouseleave="tiltInteractiveScales(0)">
+            <div class="folder-tab">Area 07</div>
+            <div>
+              <svg class="practice-icon" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2" stroke-width="1.8"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" stroke-width="1.8"></path></svg>
+              <h3 class="practice-title" data-i18n="p7_title">7. Corporate & Commercial</h3>
+            </div>
+            <ul class="practice-list">
+              <li>Company Registration</li>
+              <li>Legal & ROC Compliance</li>
+              <li>Commercial Agreements Drafting</li>
+              <li>Employment & Labour Law</li>
+              <li>Business Legal Advisory</li>
+              <li>GST-related Legal Issues</li>
+            </ul>
+          </article>
+
+          <!-- 8. Consumer & Labour Law -->
+          <article class="practice-folder-card" onmouseenter="tiltInteractiveScales(5)" onmouseleave="tiltInteractiveScales(0)">
+            <div class="folder-tab">Area 08</div>
+            <div>
+              <svg class="practice-icon" viewBox="0 0 24 24"><path d="M16 16v1a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v1" stroke-width="1.8"></path><path d="M18 8h4a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2h-4" stroke-width="1.8"></path><circle cx="8" cy="12" r="2" stroke-width="1.8"></circle></svg>
+              <h3 class="practice-title" data-i18n="p8_title">8. Consumer & Labour</h3>
+            </div>
+            <ul class="practice-list">
+              <li>Consumer Commission Complaints</li>
+              <li>Labour & Industrial Disputes</li>
+              <li>Employment Discrimination Matters</li>
+              <li>Service & Disciplinary Matters</li>
+              <li>Workplace Compensation Claims</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+       09. CASE VICTORIES & REDACTED LEGAL DOSSIERS
+       ========================================================================== -->
+    <section id="cases">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label" data-i18n="cases_label">Courtroom Precedents</span>
+          <h2 class="section-heading" data-i18n="cases_heading">Case Victories & Dossiers</h2>
+          <div class="gold-divider"></div>
+        </div>
+
+        <div class="dossier-grid">
+          <!-- Case 1 -->
+          <div class="dossier-card">
+            <div>
+              <span class="dossier-stamp">CONFIDENTIAL</span>
+              <div class="dossier-num">DOSSIER #HC-WRIT-2024</div>
+              <h3 class="dossier-title">High Court Writ vs. Statutory Body</h3>
+              <div class="dossier-parties">
+                <strong>Petitioner:</strong> <span class="redacted-text">[M/s. Premier Logistics Pvt Ltd]</span><br>
+                <strong>Respondent:</strong> <span class="redacted-text">[State Revenue Dept & Ors]</span>
+              </div>
+            </div>
+            <div class="dossier-outcome">
+              <strong>Relief Granted:</strong>
+              High Court quashed arbitrary demand notice of ₹1.8 Crores and reinstated commercial operating license under Article 226.
+            </div>
+          </div>
+
+          <!-- Case 2 -->
+          <div class="dossier-card">
+            <div>
+              <span class="dossier-stamp">CONFIDENTIAL</span>
+              <div class="dossier-num">DOSSIER #OS-PART-2023</div>
+              <h3 class="dossier-title">30-Year Ancestral Partition Suit</h3>
+              <div class="dossier-parties">
+                <strong>Plaintiff:</strong> <span class="redacted-text">[K. Soundararajan & Family]</span><br>
+                <strong>Defendant:</strong> <span class="redacted-text">[R. Natarajan & Legal Heirs]</span>
+              </div>
+            </div>
+            <div class="dossier-outcome">
+              <strong>Decree Secured:</strong>
+              Prevailed in contentious multi-crore Chennai property dispute; secured 1/4th legitimate share and separate possession decree.
+            </div>
+          </div>
+
+          <!-- Case 3 -->
+          <div class="dossier-card">
+            <div>
+              <span class="dossier-stamp">CONFIDENTIAL</span>
+              <div class="dossier-num">DOSSIER #CROP-BAIL-2024</div>
+              <h3 class="dossier-title">Anticipatory Bail under Sec 438 CrPC</h3>
+              <div class="dossier-parties">
+                <strong>Petitioner:</strong> <span class="redacted-text">[Senior Managing Director]</span><br>
+                <strong>Complainant:</strong> <span class="redacted-text">[State Rep. by Police]</span>
+              </div>
+            </div>
+            <div class="dossier-outcome">
+              <strong>Order Passed:</strong>
+              Protected client from immediate custodial arrest in alleged commercial fraud charges, proving absence of criminality.
+            </div>
+          </div>
+
+          <!-- Case 4 -->
+          <div class="dossier-card">
+            <div>
+              <span class="dossier-stamp">CONFIDENTIAL</span>
+              <div class="dossier-num">DOSSIER #CROP-QUASH-2023</div>
+              <h3 class="dossier-title">FIR Quashing under Section 482 CrPC</h3>
+              <div class="dossier-parties">
+                <strong>Petitioner:</strong> <span class="redacted-text">[Software Enterprise Executives]</span><br>
+                <strong>Agency:</strong> <span class="redacted-text">[Cyber Crime Wing, Chennai]</span>
+              </div>
+            </div>
+            <div class="dossier-outcome">
+              <strong>Proceedings Quashed:</strong>
+              Demonstrated abuse of legal process; High Court exercised inherent powers to completely quash frivolous criminal proceedings.
+            </div>
+          </div>
+
+          <!-- Case 5 -->
+          <div class="dossier-card">
+            <div>
+              <span class="dossier-stamp">CONFIDENTIAL</span>
+              <div class="dossier-num">DOSSIER #CC-NI-138-2024</div>
+              <h3 class="dossier-title">Sec 138 NI Act Cheque Bounce Trial</h3>
+              <div class="dossier-parties">
+                <strong>Complainant:</strong> <span class="redacted-text">[Infrastructure Contractor]</span><br>
+                <strong>Accused:</strong> <span class="redacted-text">[Commercial Realty Developer]</span>
+              </div>
+            </div>
+            <div class="dossier-outcome">
+              <strong>Verdict Secured:</strong>
+              Successfully convicted defaulting drawer; recovered principal debt of ₹45 Lakhs with 9% statutory penal interest.
+            </div>
+          </div>
+
+          <!-- Case 6 -->
+          <div class="dossier-card">
+            <div>
+              <span class="dossier-stamp">CONFIDENTIAL</span>
+              <div class="dossier-num">DOSSIER #PROP-OP-2024</div>
+              <h3 class="dossier-title">Commercial Land Due Diligence</h3>
+              <div class="dossier-parties">
+                <strong>Client:</strong> <span class="redacted-text">[NRI Institutional Investor]</span><br>
+                <strong>Property:</strong> <span class="redacted-text">[4.5 Acre Industrial Land, OMR]</span>
+              </div>
+            </div>
+            <div class="dossier-outcome">
+              <strong>Title Cleared:</strong>
+              Uncovered dormant mortgage encumbrance; rectified revenue patta defects and facilitated risk-free ₹32 Crore acquisition.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+       10. WHY CHOOSE US & OUR COMMITMENT
+       ========================================================================== -->
+    <section id="why-us">
+      <div class="container">
+        <div class="why-split-layout">
+          <div>
+            <span class="section-label" data-i18n="why_label">Institutional Merit</span>
+            <h2 class="section-heading" data-i18n="why_heading" style="text-align:left;">Why Choose Us</h2>
+            <div class="gold-divider" style="margin: 0.8rem 0 2.5rem 0;"></div>
+
+            <div class="why-matrix">
+              <div class="why-card">
+                <div class="why-card-title">
+                  <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12" stroke-width="2.5"></polyline></svg>
+                  Experienced Representation
+                </div>
+                <div class="why-card-desc">Seasoned courtroom advocacy led by Senior Counsel across High Court & Sessions.</div>
+              </div>
+              <div class="why-card">
+                <div class="why-card-title">
+                  <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12" stroke-width="2.5"></polyline></svg>
+                  Honest and Practical Advice
+                </div>
+                <div class="why-card-desc">Pragmatic, clear statutory advice tailored to your commercial and personal realities.</div>
+              </div>
+              <div class="why-card">
+                <div class="why-card-title">
+                  <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12" stroke-width="2.5"></polyline></svg>
+                  Confidential Consultation
+                </div>
+                <div class="why-card-desc">Absolute attorney-client privilege maintained across all briefs and disclosures.</div>
+              </div>
+              <div class="why-card">
+                <div class="why-card-title">
+                  <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12" stroke-width="2.5"></polyline></svg>
+                  Transparent Fee Structure
+                </div>
+                <div class="why-card-desc">No hidden charges; completely clear statutory filing and professional representation terms.</div>
+              </div>
+              <div class="why-card">
+                <div class="why-card-title">
+                  <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12" stroke-width="2.5"></polyline></svg>
+                  Timely Communication
+                </div>
+                <div class="why-card-desc">Regular hearing updates, certified order copies, and responsive case management.</div>
+              </div>
+              <div class="why-card">
+                <div class="why-card-title">
+                  <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12" stroke-width="2.5"></polyline></svg>
+                  Personalized Solutions
+                </div>
+                <div class="why-card-desc">Bespoke litigation and drafting strategies designed for individual client needs.</div>
+              </div>
+              <div class="why-card">
+                <div class="why-card-title">
+                  <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12" stroke-width="2.5"></polyline></svg>
+                  Ethical & Professional
+                </div>
+                <div class="why-card-desc">Strict fidelity to Bar Council norms, integrity, and highest professional decorum.</div>
+              </div>
+              <div class="why-card">
+                <div class="why-card-title">
+                  <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12" stroke-width="2.5"></polyline></svg>
+                  Client Satisfaction
+                </div>
+                <div class="why-card-desc">Unyielding persistence to protect rights and achieve just resolutions in law.</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Covenant Box -->
+          <div class="covenant-card">
+            <h3 class="covenant-title" data-i18n="covenant_heading">Our Commitment</h3>
+            <div class="covenant-subtitle" data-i18n="covenant_sub">Sworn Covenant of Advocacy</div>
+
+            <ul class="covenant-list">
+              <li class="covenant-item">
+                <span class="covenant-bullet">1</span>
+                <div><strong>Protecting your legal rights</strong> with uncompromised vigor across all judicial benches and forums.</div>
+              </li>
+              <li class="covenant-item">
+                <span class="covenant-bullet">2</span>
+                <div><strong>Maintaining complete confidentiality</strong> under strict fiduciary lawyer-client privilege guidelines.</div>
+              </li>
+              <li class="covenant-item">
+                <span class="covenant-bullet">3</span>
+                <div><strong>Providing honest legal advice</strong> that clarifies genuine merits, risk factors, and procedural stages.</div>
+              </li>
+              <li class="covenant-item">
+                <span class="covenant-bullet">4</span>
+                <div><strong>Delivering timely and effective legal services</strong> to prevent procedural defaults and preserve liberties.</div>
+              </li>
+              <li class="covenant-item">
+                <span class="covenant-bullet">5</span>
+                <div><strong>Representing every client with professionalism and dedication</strong>, whether in trial, appeal, or advisory.</div>
+              </li>
+            </ul>
+
+            <div style="text-align:center; margin-top:2.2rem; border-top:1px dashed var(--border-subtle); padding-top:1.2rem;">
+              <div style="font-family:var(--font-cinzel); font-size:0.82rem; color:var(--parchment);">100 LAW CHAMBER, MADRAS HIGH COURT</div>
+              <div style="font-size:0.72rem; color:var(--gold); margin-top:3px;">Chennai, Tamil Nadu, India</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+       11. 6-STEP LEGAL PROCESS
+       ========================================================================== -->
+    <section id="process">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label" data-i18n="process_label">Systematic Methodology</span>
+          <h2 class="section-heading" data-i18n="process_heading">Our Legal Process</h2>
+          <div class="gold-divider"></div>
+        </div>
+
+        <div class="process-grid">
+          <div class="process-card">
+            <div class="process-step-num">01</div>
+            <h3 class="process-step-title" data-i18n="step_1_title">Initial Consultation</h3>
+            <p class="process-step-desc">Confidential meeting in chambers or via secure call to comprehend the facts, timeline, and relief sought.</p>
+          </div>
+          <div class="process-card">
+            <div class="process-step-num">02</div>
+            <h3 class="process-step-title" data-i18n="step_2_title">Review of Documents</h3>
+            <p class="process-step-desc">Exhaustive forensic and statutory scrutiny of title deeds, notices, chargesheets, or prior pleadings.</p>
+          </div>
+          <div class="process-card">
+            <div class="process-step-num">03</div>
+            <h3 class="process-step-title" data-i18n="step_3_title">Legal Opinion</h3>
+            <p class="process-step-desc">Definitive advisory assessing legal merits, applicable precedents, strategic risk, and course of action.</p>
+          </div>
+          <div class="process-card">
+            <div class="process-step-num">04</div>
+            <h3 class="process-step-title" data-i18n="step_4_title">Filing / Registration</h3>
+            <p class="process-step-desc">Meticulous petition drafting, affidavit attestation, registry numbering, and defect curing.</p>
+          </div>
+          <div class="process-card">
+            <div class="process-step-num">05</div>
+            <h3 class="process-step-title" data-i18n="step_5_title">Court Representation</h3>
+            <p class="process-step-desc">Vigorous oral arguments, trial examination, and injunction hearings before judges and magistrates.</p>
+          </div>
+          <div class="process-card">
+            <div class="process-step-num">06</div>
+            <h3 class="process-step-title" data-i18n="step_6_title">Resolution & Follow-up</h3>
+            <p class="process-step-desc">Securing certified decrees, monitoring compliance, filing execution petitions, or pursuing appellate remedies.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+       12. TESTIMONIALS AS AFFIDAVITS
+       ========================================================================== -->
+    <section id="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label" data-i18n="test_label">Client Affidavits</span>
+          <h2 class="section-heading" data-i18n="test_heading">Affidavits of Client Testimony</h2>
+          <div class="gold-divider"></div>
+        </div>
+
+        <div class="affidavit-grid">
+          <!-- Affidavit 1 -->
+          <div class="affidavit-card">
+            <div>
+              <div class="affidavit-header">
+                <div class="affidavit-header-title">SWORN TESTIMONIAL AFFIDAVIT</div>
+                <div class="affidavit-matter">IN THE MATTER OF COMMERCIAL WRIT PETITION</div>
+              </div>
+              <div class="affidavit-quote">
+                “I hereby depose that Advocate B. Kannan and Senior Advocate Mr. Mohamed Ansaree represented our infrastructure company before the Madras High Court with peerless mastery. Their command over statutory nuances prevented arbitrary government recovery, saving our project.”
+              </div>
+            </div>
+            <div class="affidavit-footer">
+              <div>
+                <div class="affiant-name">S. Ramanathan</div>
+                <div class="affiant-desc">Managing Director, Chennai Infra</div>
+              </div>
+              <div class="notary-seal-stamp">VERIFIED<br>AFFIDAVIT</div>
+            </div>
+          </div>
+
+          <!-- Affidavit 2 -->
+          <div class="affidavit-card">
+            <div>
+              <div class="affidavit-header">
+                <div class="affidavit-header-title">SWORN TESTIMONIAL AFFIDAVIT</div>
+                <div class="affidavit-matter">IN THE MATTER OF PROPERTY TITLE CLEARANCE</div>
+              </div>
+              <div class="affidavit-quote">
+                “Advocate B. Kannan conducted an exhaustive 30-year title verification for our family ancestral property in Adyar. His forensic eye for encumbrances and revenue patta irregularities protected us from an impending fraudulent conveyance.”
+              </div>
+            </div>
+            <div class="affidavit-footer">
+              <div>
+                <div class="affiant-name">Mrs. Ananthi Vijay</div>
+                <div class="affiant-desc">NRI Property Owner (Singapore)</div>
+              </div>
+              <div class="notary-seal-stamp">VERIFIED<br>AFFIDAVIT</div>
+            </div>
+          </div>
+
+          <!-- Affidavit 3 -->
+          <div class="affidavit-card">
+            <div>
+              <div class="affidavit-header">
+                <div class="affidavit-header-title">SWORN TESTIMONIAL AFFIDAVIT</div>
+                <div class="affidavit-matter">IN THE MATTER OF CIVIL TRIAL & PARTITION</div>
+              </div>
+              <div class="affidavit-quote">
+                “Their counsel is grounded in honesty and transparent ethics. They never mislead on timelines or outcomes. In our complex partition suit, their courtroom presence secured an equitable final decree beyond our expectations.”
+              </div>
+            </div>
+            <div class="affidavit-footer">
+              <div>
+                <div class="affiant-name">V. Soundararajan</div>
+                <div class="affiant-desc">Business Proprietor, Coimbatore</div>
+              </div>
+              <div class="notary-seal-stamp">VERIFIED<br>AFFIDAVIT</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+       13. LEGAL BLOG & HIGH COURT UPDATES
+       ========================================================================== -->
+    <section id="insights">
+      <div class="container">
+        <!-- Bulletin -->
+        <div class="bulletin-bar">
+          <div class="bulletin-tag">
+            <span class="bulletin-dot"></span>
+            HIGH COURT BULLETIN
+          </div>
+          <div class="bulletin-msg">
+            <strong>Judicial Update:</strong> New Criminal Code (Bharatiya Nyaya Sanhita - BNS & BNSS) procedural compliance now in effect across Tamil Nadu trial courts.
+            <a href="#contact">Consult Chambers for Transition Briefing &rarr;</a>
+          </div>
+        </div>
+
+        <div class="section-header">
+          <span class="section-label" data-i18n="blog_label">Scholarly Jurisprudence</span>
+          <h2 class="section-heading" data-i18n="blog_heading">Legal Articles & Insights</h2>
+          <div class="gold-divider"></div>
+        </div>
+
+        <div class="articles-grid">
+          <!-- Article 1 -->
+          <article class="article-card">
+            <div>
+              <span class="article-tag">Property Law Guide</span>
+              <h3 class="article-card-title">Critical Checks in 30-Year Property Title Verification</h3>
+              <p class="article-excerpt">
+                Why encumbrance certificates (EC) alone are insufficient in Tamil Nadu: Scrutinizing parent link documents, revenue patta entries, and UDR scheme alignments.
+              </p>
+            </div>
+            <button class="article-btn" onclick="openArticleModal('property')">
+              Read Briefing Paper &rarr;
+            </button>
+          </article>
+
+          <!-- Article 2 -->
+          <article class="article-card">
+            <div>
+              <span class="article-tag">Commercial Trials</span>
+              <h3 class="article-card-title">Section 138 NI Act: Statutory Notice and Trial Tactics</h3>
+              <p class="article-excerpt">
+                Essential timelines for issuing statutory legal notices under the Negotiable Instruments Act and mitigating defenses in cheque dishonour proceedings.
+              </p>
+            </div>
+            <button class="article-btn" onclick="openArticleModal('cheque')">
+              Read Briefing Paper &rarr;
+            </button>
+          </article>
+
+          <!-- Article 3 -->
+          <article class="article-card">
+            <div>
+              <span class="article-tag">Criminal Jurisprudence</span>
+              <h3 class="article-card-title">Anticipatory Bail & FIR Quashing before Madras High Court</h3>
+              <p class="article-excerpt">
+                The balance between personal liberty and police investigation: Evidentiary standards required when approaching the High Court under Section 482 CrPC.
+              </p>
+            </div>
+            <button class="article-btn" onclick="openArticleModal('bail')">
+              Read Briefing Paper &rarr;
+            </button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+       14. CREDENTIALS & CERTIFICATIONS
+       ========================================================================== -->
+    <section id="credentials">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label" data-i18n="cred_label">Institutional Accreditations</span>
+          <h2 class="section-heading" data-i18n="cred_heading">Credentials & Bar Standing</h2>
+          <div class="gold-divider"></div>
+        </div>
+
+        <div class="certs-grid">
+          <div class="cert-box">
+            <div class="cert-seal">
+              <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke-width="1.8"></path></svg>
+            </div>
+            <div class="cert-org">Bar Council of Tamil Nadu & Puducherry</div>
+            <h3 class="cert-name">Verified Advocate Enrollment</h3>
+            <p class="cert-desc">Licensed to practice before the Supreme Court of India, Madras High Court, and all subordinate judicial forums nationwide.</p>
+          </div>
+
+          <div class="cert-box">
+            <div class="cert-seal">
+              <svg viewBox="0 0 24 24"><path d="M3 21h18M5 21V10M19 21V10M2 10l10-6l10 6H2z" stroke-width="1.8"></path></svg>
+            </div>
+            <div class="cert-org">Madras High Court Advocates Association</div>
+            <h3 class="cert-name">100 Law Chamber Secretariat</h3>
+            <p class="cert-desc">Permanent standing at the historic Madras High Court Bar with continuous appellate litigation engagement.</p>
+          </div>
+
+          <div class="cert-box">
+            <div class="cert-seal">
+              <svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15z" stroke-width="1.8"></path></svg>
+            </div>
+            <div class="cert-org">Multi-Disciplinary Academics</div>
+            <h3 class="cert-name">MBA., M.Com., M.Phil, B.L.</h3>
+            <p class="cert-desc">Rare synthesis of corporate management, commercial economics, and statutory jurisprudence for complex advisory.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+       15. FREQUENTLY ASKED QUESTIONS
+       ========================================================================== -->
+    <section id="faqs">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label" data-i18n="faq_label">Clarifications & Guidance</span>
+          <h2 class="section-heading" data-i18n="faq_heading">Frequently Asked Questions</h2>
+          <div class="gold-divider"></div>
+        </div>
+
+        <div class="faq-wrapper">
+          <!-- FAQ 1 -->
+          <div class="faq-item active">
+            <button class="faq-btn" onclick="toggleFaq(this)">
+              <span>How do I book a consultation?</span>
+              <span class="faq-plus">+</span>
+            </button>
+            <div class="faq-body">
+              You can contact us by phone at <strong>+91 9840100603</strong>, email <strong>bkannanadvocate@gmail.com</strong>, WhatsApp, or by filling out the online enquiry petition form below. Our chamber registry will confirm your appointment promptly.
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="faq-item">
+            <button class="faq-btn" onclick="toggleFaq(this)">
+              <span>Do you offer online legal consultation?</span>
+              <span class="faq-plus">+</span>
+            </button>
+            <div class="faq-body">
+              Yes. Online consultations are available by prior appointment via secure video conference or phone for clients located outside Chennai, NRI litigants, or those needing urgent preliminary legal opinions.
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="faq-item">
+            <button class="faq-btn" onclick="toggleFaq(this)">
+              <span>Do you provide legal notice drafting?</span>
+              <span class="faq-plus">+</span>
+            </button>
+            <div class="faq-body">
+              Yes. We draft legal notices, reply notices, commercial agreements, partnership deeds, wills, affidavits, and statutory notices under Section 138 of the Negotiable Instruments Act with meticulous legal precision.
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="faq-item">
+            <button class="faq-btn" onclick="toggleFaq(this)">
+              <span>Do you verify property documents?</span>
+              <span class="faq-plus">+</span>
+            </button>
+            <div class="faq-body">
+              Yes. Advocate B. Kannan provides comprehensive property legal opinions and 30-year title verification reports, scrutinizing parent documents, encumbrance certificates (EC), revenue patta records, and sub-registrar registrations.
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="faq-item">
+            <button class="faq-btn" onclick="toggleFaq(this)">
+              <span>Do you appear before the High Court?</span>
+              <span class="faq-plus">+</span>
+            </button>
+            <div class="faq-body">
+              Yes. We regularly appear before the Madras High Court (Principal Bench Chennai & Madurai Bench), City Civil Courts, Sessions Courts, NCLT, and appellate tribunals depending on the nature of the matter.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+       16. PETITION FORM & GOOGLE MAPS
+       ========================================================================== -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label" data-i18n="contact_label">Chamber Registry</span>
+          <h2 class="section-heading" data-i18n="contact_heading">File a Legal Brief & Consultation</h2>
+          <div class="gold-divider"></div>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left Info -->
+          <div class="chambers-info-card">
+            <div class="info-header">
+              <div class="chamber-seal-icon">
+                <span class="seal-no">100</span>
+              </div>
+              <div>
+                <h3 style="font-family:var(--font-cinzel); font-size:1.15rem; color:var(--parchment);">100 Law Chamber</h3>
+                <div style="font-size:0.72rem; color:var(--gold); text-transform:uppercase; letter-spacing:0.12em;">Madras High Court • Chennai</div>
+              </div>
+            </div>
+
+            <div class="info-row">
+              <svg class="info-icon" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke-width="1.8"></path><circle cx="12" cy="10" r="3" stroke-width="1.8"></circle></svg>
+              <div>
+                <div class="info-label" data-i18n="label_address">Office Address</div>
+                <div class="info-val">
+                  100 Law Chamber, High Court Buildings,<br>
+                  Chennai, Tamil Nadu, India — 600 104
+                </div>
+              </div>
+            </div>
+
+            <div class="info-row">
+              <svg class="info-icon" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" stroke-width="1.8"></path></svg>
+              <div>
+                <div class="info-label" data-i18n="label_phone">Chambers Telephone</div>
+                <div class="info-val">
+                  <a href="tel:+919840100603">+91 9840100603</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="info-row">
+              <svg class="info-icon" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke-width="1.8"></path><polyline points="22,6 12,13 2,6" stroke-width="1.8"></polyline></svg>
+              <div>
+                <div class="info-label" data-i18n="label_email">Official Registry Email</div>
+                <div class="info-val">
+                  <a href="mailto:bkannanadvocate@gmail.com">bkannanadvocate@gmail.com</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Working Hours -->
+            <div class="hours-table">
+              <div class="hours-head" data-i18n="label_hours">Chamber Consultation Hours</div>
+              <div class="hours-line">
+                <span>Monday to Friday:</span>
+                <strong>6:00 PM – 9:00 PM</strong>
+              </div>
+              <div class="hours-line">
+                <span>Saturday:</span>
+                <strong>10:00 AM – 1:00 PM</strong>
+              </div>
+              <div class="hours-line">
+                <span>Sunday:</span>
+                <strong>By Prior Appointment</strong>
+              </div>
+            </div>
+
+            <div style="display:flex; gap:1rem; margin-top:1.5rem;">
+              <a class="btn btn-gold" href="tel:+919840100603" style="flex:1;">Call Chambers</a>
+              <a class="btn btn-wa" href="https://wa.me/919840100603" target="_blank" rel="noopener noreferrer" style="flex:1;">WhatsApp</a>
+            </div>
+          </div>
+
+          <!-- Right Form -->
+          <div class="petition-panel">
+            <div class="petition-header">
+              <svg style="width:16px;height:16px;stroke:currentColor;fill:none;" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" stroke-width="2"></path></svg>
+              <span>IN THE CHAMBERS DOCKET • CONSULTATION PETITION</span>
+            </div>
+
+            <form id="petition-form" onsubmit="event.preventDefault(); submitPetitionForm();">
+              <div class="form-2-col">
+                <div class="form-group">
+                  <label class="form-label" for="client-name">Petitioner / Full Name *</label>
+                  <input class="form-input" type="text" id="client-name" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="client-phone">Phone / WhatsApp Number *</label>
+                  <input class="form-input" type="tel" id="client-phone" placeholder="+91 9840100603" required>
+                </div>
+              </div>
+
+              <div class="form-2-col">
+                <div class="form-group">
+                  <label class="form-label" for="client-email">Email Address *</label>
+                  <input class="form-input" type="email" id="client-email" placeholder="client@example.com" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="matter-cat">Matter Category *</label>
+                  <select class="form-input" id="matter-cat" required>
+                    <option value="" disabled selected>Select category of dispute</option>
+                    <option value="civil">1. Civil Law & Property Disputes</option>
+                    <option value="criminal">2. Criminal Defence, Bail & Sec 138</option>
+                    <option value="family">3. Family Law & Matrimonial Matters</option>
+                    <option value="property">4. Property Title Verification & Opinion</option>
+                    <option value="registration">5. Registration & Legal Documentation</option>
+                    <option value="highcourt">6. High Court Writ, Cr.O.P. & Revision</option>
+                    <option value="corporate">7. Corporate & Commercial Law</option>
+                    <option value="consumer">8. Consumer & Labour Law</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="consult-mode">Preferred Consultation Mode *</label>
+                <select class="form-input" id="consult-mode" required>
+                  <option value="" disabled selected>Select consultation format</option>
+                  <option value="in-chamber">In-Chamber Meeting (100 Law Chamber, Madras High Court)</option>
+                  <option value="online">Online Legal Consultation (Video Call / Telephonic)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="matter-summary">Brief Summary of Cause / Issue *</label>
+                <textarea class="form-input" id="matter-summary" placeholder="Provide background of dispute, stage of court proceedings (if pending), and urgent relief required..." required></textarea>
+              </div>
+
+              <button class="btn-submit" type="submit" id="btn-submit-action">
+                SUBMIT BRIEF & BOOK CONSULTATION
+              </button>
+
+              <div class="form-ack" id="petition-acknowledgement">
+                <strong>Brief Successfully Lodged in Chamber Docket!</strong><br>
+                Thank you. Your consultation request has been registered. Advocate B. Kannan's office will review your facts and contact you during consultation hours.
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- Google Maps Embed -->
+        <div class="map-box">
+          <div class="map-header">
+            <div class="map-title">
+              <svg style="width:16px;height:16px;stroke:var(--gold);fill:none;" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke-width="1.8"></path><circle cx="12" cy="10" r="3" stroke-width="1.8"></circle></svg>
+              <span>CHAMBER LOCATION • MADRAS HIGH COURT, CHENNAI</span>
+            </div>
+            <a class="btn btn-ghost" href="https://maps.google.com/?q=Madras+High+Court,+Chennai" target="_blank" rel="noopener noreferrer" style="padding:0.35rem 0.9rem; font-size:0.72rem;">
+              Open in Google Maps &rarr;
+            </a>
+          </div>
+          <iframe 
+            class="map-frame" 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.2739345717387!2d80.28639207575296!3d13.085002012450518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ffad891781%3A0x867ea321d2db44bb!2sMadras%20High%20Court!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Madras High Court 100 Law Chamber Location">
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================================================
+       17. FOOTER & MODALS
+       ========================================================================== -->
+  <footer id="main-footer">
+    <div class="container">
+      <div class="bci-card">
+        <div class="bci-title">
+          Bar Council of India Statutory Compliance & Disclaimer
+        </div>
+        <p class="bci-desc">
+          As per the rules of the Bar Council of India, advocates are strictly prohibited from soliciting work or advertising. This website is for informational purposes only. The information provided under this website is solely available at the user's request for informational purposes only and should not be interpreted as soliciting or advertisement. There has been no advertisement, personal communication, solicitation, invitation, or inducement of any sort whatsoever from us or any of our members to solicit any work through this website.
+        </p>
+      </div>
+
+      <div class="footer-grid">
+        <div>
+          <div class="brand-group" style="margin-bottom:1.2rem;">
+            <div class="chamber-seal-icon" style="width:42px; height:42px;">
+              <span class="seal-no" style="font-size:0.9rem;">100</span>
+            </div>
+            <div>
+              <div class="brand-title-main" style="font-size:1rem;">100 Law Chamber</div>
+              <div class="brand-title-sub" style="font-size:0.65rem;">Madras High Court • Chennai</div>
+            </div>
+          </div>
+          <p style="font-size:0.84rem; color:var(--parchment-dim); line-height:1.7; margin-bottom:1.2rem;">
+            Chambers of Senior Advocate Mr. Mohamed Ansaree (B.Com, B.L.) and Advocate & Legal Consultant B. Kannan (MBA., M.Com., M.Phil, B.L.). Committed to professional advocacy, fiduciary confidentiality, and judicial excellence.
+          </p>
+          <div style="font-size:0.82rem; color:var(--parchment);">
+            <strong>Direct Phone:</strong> <a href="tel:+919840100603" style="color:var(--gold); text-decoration:none;">+91 9840100603</a><br>
+            <strong>Official Email:</strong> <a href="mailto:bkannanadvocate@gmail.com" style="color:var(--gold); text-decoration:none;">bkannanadvocate@gmail.com</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Chamber Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">Home & Welcome</a></li>
+            <li><a href="#about">About Senior Adv. Mohamed Ansaree</a></li>
+            <li><a href="#about">About Adv. B. Kannan</a></li>
+            <li><a href="#practice">8 Core Practice Areas</a></li>
+            <li><a href="#cases">Case Victories & Dossiers</a></li>
+            <li><a href="#why-us">Why Choose Us & Commitment</a></li>
+            <li><a href="#process">6-Step Legal Methodology</a></li>
+            <li><a href="#testimonials">Client Testimonials & Affidavits</a></li>
+            <li><a href="#insights">Legal Articles & Updates</a></li>
+            <li><a href="#contact">Location & Brief Filing</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Madras High Court Chambers</h4>
+          <p style="font-size:0.84rem; color:var(--parchment-dim); line-height:1.6; margin-bottom:1rem;">
+            100 Law Chamber, High Court Buildings,<br>
+            Chennai, Tamil Nadu, India — 600 104
+          </p>
+          <div style="font-size:0.82rem; color:var(--parchment); line-height:1.7;">
+            <div style="color:var(--gold); font-weight:700; margin-bottom:0.2rem;">Consultation Hours:</div>
+            Monday – Friday: 6:00 PM – 9:00 PM<br>
+            Saturday: 10:00 AM – 1:00 PM<br>
+            Sunday: By Prior Appointment Only
+          </div>
+          <div style="margin-top:1.2rem;">
+            <a class="btn btn-wa" href="https://wa.me/919840100603" target="_blank" rel="noopener noreferrer" style="padding:0.5rem 1rem; font-size:0.72rem;">
+              WhatsApp: +91 9840100603
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- SEO Cloud -->
+      <div class="seo-tags">
+        <span class="seo-tag">Best Advocate in Chennai</span>
+        <span class="seo-tag">Civil Lawyer Chennai</span>
+        <span class="seo-tag">Criminal Lawyer Chennai</span>
+        <span class="seo-tag">Family Lawyer Chennai</span>
+        <span class="seo-tag">Divorce Lawyer Chennai</span>
+        <span class="seo-tag">Property Lawyer Chennai</span>
+        <span class="seo-tag">High Court Advocate Chennai</span>
+        <span class="seo-tag">Legal Consultant Chennai</span>
+        <span class="seo-tag">Registration Lawyer Chennai</span>
+        <span class="seo-tag">Bail Lawyer Chennai</span>
+        <span class="seo-tag">Corporate Lawyer Chennai</span>
+        <span class="seo-tag">Consumer Court Advocate Chennai</span>
+        <span class="seo-tag">Legal Documentation Chennai</span>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 100 Law Chamber, Madras High Court • Adv. B. Kannan & Senior Adv. Mohamed Ansaree. All Rights Reserved.
+        </div>
+        <div>
+          <a href="#" onclick="openModal('modal-disclaimer'); return false;">Bar Council Disclaimer</a>
+          <a href="#" onclick="openModal('modal-privacy'); return false;">Privacy Policy & Privilege</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modals -->
+  <div class="modal-backdrop" id="modal-disclaimer">
+    <div class="modal-card">
+      <button class="modal-close" onclick="closeModal('modal-disclaimer')">&times;</button>
+      <div style="font-family:var(--font-cinzel); font-size:0.75rem; color:var(--blood-red); letter-spacing:0.2em; text-transform:uppercase; margin-bottom:0.6rem; font-weight:800;">
+        Bar Council of India Rule 36 Compliance
+      </div>
+      <h3 style="font-family:var(--font-display); font-size:1.6rem; color:var(--parchment); margin-bottom:1rem;">
+        Statutory Declaration & User Consent
+      </h3>
+      <p style="font-size:0.88rem; color:var(--parchment-dim); line-height:1.75; margin-bottom:1rem;">
+        The rules of the Bar Council of India do not permit advertisement or solicitation by legal practitioners. By proceeding further and clicking "Enter Chambers", you acknowledge that:
+      </p>
+      <ul style="font-size:0.84rem; color:var(--parchment-dim); line-height:1.7; padding-left:1.4rem; margin-bottom:1.5rem;">
+        <li>You wish to gain more information about 100 Law Chamber and its members for your own information and use.</li>
+        <li>The information provided is made available to you only on your specific request and does not constitute legal advice or create any advocate-client relationship.</li>
+        <li>There has been no advertisement, personal solicitation, invitation, or inducement of any sort from our chambers.</li>
+      </ul>
+      <button class="btn btn-gold" onclick="closeModal('modal-disclaimer')" style="width:100%;">
+        I Agree &amp; Enter Chambers
+      </button>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="modal-privacy">
+    <div class="modal-card">
+      <button class="modal-close" onclick="closeModal('modal-privacy')">&times;</button>
+      <div style="font-family:var(--font-cinzel); font-size:0.75rem; color:var(--gold); letter-spacing:0.2em; text-transform:uppercase; margin-bottom:0.6rem; font-weight:800;">
+        Fiduciary Confidentiality Charter
+      </div>
+      <h3 style="font-family:var(--font-display); font-size:1.6rem; color:var(--parchment); margin-bottom:1rem;">
+        Attorney-Client Privilege & Privacy Policy
+      </h3>
+      <p style="font-size:0.88rem; color:var(--parchment-dim); line-height:1.75; margin-bottom:1rem;">
+        At 100 Law Chamber, confidentiality is our sacred fiduciary and statutory duty under Section 126 of the Indian Evidence Act.
+      </p>
+      <p style="font-size:0.84rem; color:var(--parchment-dim); line-height:1.75; margin-bottom:1.2rem;">
+        Any communication, document, or brief submitted via our website petition form or consultation channels remains protected by absolute advocate-client privilege.
+      </p>
+      <button class="btn btn-ghost" onclick="closeModal('modal-privacy')" style="width:100%;">
+        Close Policy Document
+      </button>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="modal-article">
+    <div class="modal-card">
+      <button class="modal-close" onclick="closeModal('modal-article')">&times;</button>
+      <div id="modal-art-tag" style="font-family:var(--font-cinzel); font-size:0.72rem; color:var(--gold); letter-spacing:0.18em; text-transform:uppercase; margin-bottom:0.5rem; font-weight:800;"></div>
+      <h3 id="modal-art-title" style="font-family:var(--font-display); font-size:1.6rem; color:var(--parchment); margin-bottom:1rem;"></h3>
+      <div id="modal-art-body" style="font-size:0.9rem; color:var(--parchment-dim); line-height:1.8; margin-bottom:1.5rem;"></div>
+      <button class="btn btn-gold" onclick="closeModal('modal-article')" style="width:100%;">Close Legal Brief</button>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       SCRIPTS: PRELOADER, BILINGUAL ENGINE, ACCORDION & SCALES
+       ========================================================================== -->
+  <script>
+    (function() {
+      'use strict';
+
+      // 1. Preloader (Runs for 3.5 seconds)
+      const preloader = document.getElementById('preloader');
+      const statusText = document.getElementById('preloader-status');
+
+      setTimeout(() => {
+        if (statusText) statusText.textContent = "Opening Chamber Docket...";
+      }, 1600);
+
+      setTimeout(() => {
+        if (statusText) statusText.textContent = "Entering 100 Law Chamber...";
+      }, 2800);
+
+      setTimeout(() => {
+        if (preloader) preloader.classList.add('loaded');
+      }, 3500);
+
+      // 2. Smooth Cursor Follower (Native cursor preserved)
+      const follower = document.getElementById('cursor-follower');
+      const dot = document.getElementById('cursor-dot');
+      let mouseX = -100, mouseY = -100;
+      let followerX = -100, followerY = -100;
+
+      window.addEventListener('mousemove', (e) => {
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+        if (dot) {
+          dot.style.left = mouseX + 'px';
+          dot.style.top = mouseY + 'px';
+        }
+      });
+
+      function animateFollower() {
+        followerX += (mouseX - followerX) * 0.15;
+        followerY += (mouseY - followerY) * 0.15;
+        if (follower) {
+          follower.style.left = followerX + 'px';
+          follower.style.top = followerY + 'px';
+        }
+        requestAnimationFrame(animateFollower);
+      }
+      requestAnimationFrame(animateFollower);
+
+      const hoverTargets = document.querySelectorAll('a, button, input, select, textarea, .practice-folder-card, .dossier-card');
+      hoverTargets.forEach(el => {
+        el.addEventListener('mouseenter', () => {
+          if (follower) follower.classList.add('hovering');
+        });
+        el.addEventListener('mouseleave', () => {
+          if (follower) follower.classList.remove('hovering');
+        });
+      });
+
+      // 3. Interactive Weighing Machine Tipping
+      window.tiltInteractiveScales = function(deg) {
+        const beam = document.getElementById('interactive-beam');
+        if (beam) {
+          beam.style.transform = `rotate(${deg}deg)`;
+        }
+      };
+
+      // 4. FAQ Accordion
+      window.toggleFaq = function(button) {
+        const item = button.closest('.faq-item');
+        const isActive = item.classList.contains('active');
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+        if (!isActive) item.classList.add('active');
+      };
+
+      // 5. Petition Form Submit
+      window.submitPetitionForm = function() {
+        const btn = document.getElementById('btn-submit-action');
+        const ack = document.getElementById('petition-acknowledgement');
+        if (btn) {
+          btn.textContent = 'PETITION REGISTERED IN DOCKET';
+          btn.style.backgroundColor = 'var(--parchment)';
+          btn.style.color = '#060B12';
+          btn.disabled = true;
+        }
+        if (ack) {
+          ack.style.display = 'block';
+          ack.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+      };
+
+      // 6. Modals
+      window.openModal = function(id) {
+        const el = document.getElementById(id);
+        if (el) el.classList.add('active');
+      };
+      window.closeModal = function(id) {
+        const el = document.getElementById(id);
+        if (el) el.classList.remove('active');
+      };
+
+      // 7. Articles Modal Data
+      const articles = {
+        property: {
+          tag: 'Property Law Guide • Chennai',
+          title: 'Critical Checks in 30-Year Property Title Verification in Tamil Nadu',
+          body: `
+            <p>Title verification in Tamil Nadu requires going far beyond obtaining an Encumbrance Certificate (EC) from the Sub-Registrar’s office. An EC merely reflects registered transactions and does not validate whether the vendor possessed lawful right, title, and interest.</p>
+            <br>
+            <p><strong>Essential Scrutiny Steps:</strong></p>
+            <p>1. <strong>Parent Link Documents:</strong> Unbroken succession chain for at least 30 years to verify devolution of ownership.</p>
+            <p>2. <strong>Revenue Patta Verification:</strong> Cross-checking manual revenue registers and e-patta portal entries against registered boundary sketches (FMB).</p>
+            <p>3. <strong>Urban Land Ceiling & Acquisition:</strong> Confirming that the land has not been notified for statutory government acquisition.</p>
+            <p>4. <strong>Litigation Checks:</strong> Searching City Civil, Sub-Court, and Madras High Court dockets for pending partition or injunction proceedings.</p>
+          `
+        },
+        cheque: {
+          tag: 'Commercial Litigation • NI Act',
+          title: 'Section 138 NI Act: Statutory Notice and Trial Tactics',
+          body: `
+            <p>Section 138 of the Negotiable Instruments Act creates criminal liability for the dishonour of cheques issued towards legally enforceable debts. However, strict adherence to statutory limitation periods is mandatory.</p>
+            <br>
+            <p><strong>Procedural Checklist:</strong></p>
+            <p>1. <strong>Cheque Presentation:</strong> Within 3 months from the date on the instrument.</p>
+            <p>2. <strong>Statutory Notice:</strong> Must be issued within 30 days of receiving the memo of dishonour from the bank.</p>
+            <p>3. <strong>15-Day Cure Period:</strong> The drawer must be afforded exactly 15 days to pay from the date of receipt of notice.</p>
+            <p>4. <strong>Filing of Complaint:</strong> Must be filed before the competent Judicial Magistrate within 30 days after the expiry of the 15-day cure window.</p>
+          `
+        },
+        bail: {
+          tag: 'Criminal Jurisprudence • High Court',
+          title: 'Anticipatory Bail & FIR Quashing before Madras High Court',
+          body: `
+            <p>Approaching the High Court under Section 438 CrPC (Anticipatory Bail) or Section 482 CrPC (Quashing of FIR) requires establishing that the allegations are either civil in nature or motivated by malice.</p>
+            <br>
+            <p><strong>Judicial Considerations:</strong></p>
+            <p>1. Showing absence of necessity for custodial interrogation.</p>
+            <p>2. Demonstrating willingness to cooperate with investigating officers and submit to reasonable bail conditions.</p>
+            <p>3. Proving that the dispute arises purely out of commercial contracts or marital breakdown without criminal intent.</p>
+          `
+        }
+      };
+
+      window.openArticleModal = function(key) {
+        const item = articles[key];
+        if (!item) return;
+        document.getElementById('modal-art-tag').textContent = item.tag;
+        document.getElementById('modal-art-title').textContent = item.title;
+        document.getElementById('modal-art-body').innerHTML = item.body;
+        openModal('modal-article');
+      };
+
+      // 8. Mobile Drawer
+      const mobileBtn = document.getElementById('mobile-menu-btn');
+      const mobileDrawer = document.getElementById('mobile-drawer');
+      const closeBtn = document.getElementById('drawer-close');
+
+      if (mobileBtn) mobileBtn.addEventListener('click', () => {
+        if (mobileDrawer) mobileDrawer.classList.toggle('active');
+      });
+      if (closeBtn) closeBtn.addEventListener('click', () => {
+        if (mobileDrawer) mobileDrawer.classList.remove('active');
+      });
+      window.closeDrawer = function() {
+        if (mobileDrawer) mobileDrawer.classList.remove('active');
+      };
+
+      // 9. Bilingual Language Engine
+      const translations = {
+        en: {
+          top_address: "100 Law Chamber, Madras High Court, Chennai, Tamil Nadu, India",
+          top_chambers: "Chambers of Senior Adv. Mohamed Ansaree & Adv. B. Kannan",
+          brand_sub: "Madras High Court • Chennai",
+          nav_home: "Home",
+          nav_about: "About Advocates",
+          nav_practice: "Practice Areas",
+          nav_cases: "Case Victories",
+          nav_why: "Why Choose Us",
+          nav_process: "Legal Process",
+          nav_testimonials: "Affidavits",
+          nav_insights: "Legal Blog",
+          nav_contact: "Petition & Contact",
+          btn_file_brief: "File Brief",
+          hero_badge: "100 Law Chamber • Madras High Court",
+          hero_title: "Mr. Mohamed Ansaree & B. Kannan",
+          hero_pill_1: "Mr. Mohamed Ansaree, Senior Advocate, B.Com, B.L.",
+          hero_pill_2: "B. Kannan, Advocate, MBA., M.Com., M.Phil, B.L.",
+          hero_tagline: "“Committed to Justice. Dedicated to Protecting Your Rights.”",
+          hero_narrative: "At B. Kannan Advocate Office, we provide professional, ethical, and result-oriented legal services to individuals, businesses, and organizations. We are committed to delivering practical legal solutions with integrity, confidentiality, and dedication before the Madras High Court, District Courts, and appellate forums.",
+          btn_book_consult: "Book Consultation / File Brief",
+          btn_call_direct: "Call: +91 9840100603",
+          btn_wa_consult: "WhatsApp Consultation",
+          hero_ticker: "Practicing before the Madras High Court, Subordinate Courts, Tribunals & Legal Forums",
+          about_label: "Dual Counsel Leadership",
+          about_heading: "About the Advocates",
+          badge_senior: "Senior Counsel",
+          badge_consultant: "Advocate & Legal Consultant",
+          ansaree_role: "Senior Advocate",
+          kannan_role: "Advocate & Legal Consultant",
+          practice_label: "Legal Competencies",
+          practice_heading: "Our Practice Areas",
+          scales_caption: "“Justice tilts only with evidence, statute, and unshakeable truth.”",
+          cases_label: "Courtroom Precedents",
+          cases_heading: "Case Victories & Dossiers",
+          why_label: "Institutional Merit",
+          why_heading: "Why Choose Us",
+          covenant_heading: "Our Commitment",
+          covenant_sub: "Sworn Covenant of Advocacy",
+          process_label: "Systematic Methodology",
+          process_heading: "Our Legal Process",
+          test_label: "Client Affidavits",
+          test_heading: "Affidavits of Client Testimony",
+          blog_label: "Scholarly Jurisprudence",
+          blog_heading: "Legal Articles & Insights",
+          cred_label: "Institutional Accreditations",
+          cred_heading: "Credentials & Bar Standing",
+          faq_label: "Clarifications & Guidance",
+          faq_heading: "Frequently Asked Questions",
+          contact_label: "Chamber Registry",
+          contact_heading: "File a Legal Brief & Consultation"
+        },
+        ta: {
+          top_address: "100 சட்ட அறை, சென்னை உயர் நீதிமன்றம், தமிழ்நாடு, இந்தியா",
+          top_chambers: "முதுநிலை வழக்கறிஞர் முஹம்மது அன்சாரி & வழக்கறிஞர் பி. கண்ணன் அலுவலகம்",
+          brand_sub: "சென்னை உயர் நீதிமன்றம் • சென்னை",
+          nav_home: "முகப்பு",
+          nav_about: "வழக்கறிஞர்கள்",
+          nav_practice: "சட்டப் பிரிவுகள்",
+          nav_cases: "வழக்கு வெற்றிகள்",
+          nav_why: "ஏன் எங்களைத் தேர்வு செய்ய வேண்டும்",
+          nav_process: "சட்ட நடைமுறை",
+          nav_testimonials: "சான்றிதழ்கள்",
+          nav_insights: "சட்டக் கட்டுரைகள்",
+          nav_contact: "மனு & தொடர்பு",
+          btn_file_brief: "மனு தாக்கல்",
+          hero_badge: "100 சட்ட அறை • சென்னை உயர் நீதிமன்றம்",
+          hero_title: "திரு. முஹம்மது அன்சாரி & பி. கண்ணன்",
+          hero_pill_1: "திரு. முஹம்மது அன்சாரி, முதுநிலை வழக்கறிஞர், B.Com, B.L.",
+          hero_pill_2: "பி. கண்ணன், வழக்கறிஞர், MBA., M.Com., M.Phil, B.L.",
+          hero_tagline: "“நீதிக்காக அர்ப்பணிப்புடன். உங்கள் உரிமைகளைப் பாதுகாக்க உறுதியுடன்.”",
+          hero_narrative: "பி. கண்ணன் வழக்கறிஞர் அலுவலகத்தில், தனிநபர்கள், வணிக நிறுவனங்கள் மற்றும் அமைப்புகளுக்கு தொழில்முறை, நேர்மையான மற்றும் பயனுள்ள சட்ட சேவைகளை வழங்குகிறோம். சென்னை உயர் நீதிமன்றம் மற்றும் மாவட்ட நீதிமன்றங்களில் முழு அர்ப்பணிப்புடன் சிறந்த சட்டத் தீர்வுகளை வழங்க கடமைப்பட்டுள்ளோம்.",
+          btn_book_consult: "ஆலோசனை முன்பதிவு / மனு",
+          btn_call_direct: "அழைக்க: +91 9840100603",
+          btn_wa_consult: "வாட்ஸ்அப் ஆலோசனை",
+          hero_ticker: "சென்னை உயர் நீதிமன்றம், சார்பு நீதிமன்றங்கள் மற்றும் தீர்ப்பாயங்களில் வழக்கறிஞர் பணி",
+          about_label: "தலைமை வழக்கறிஞர்கள்",
+          about_heading: "வழக்கறிஞர்கள் பற்றி",
+          badge_senior: "முதுநிலை வழக்கறிஞர்",
+          badge_consultant: "வழக்கறிஞர் & சட்ட ஆலோசகர்",
+          ansaree_role: "முதுநிலை வழக்கறிஞர்",
+          kannan_role: "வழக்கறிஞர் & சட்ட ஆலோசகர்",
+          practice_label: "சட்டத் துறைகள்",
+          practice_heading: "எங்களின் சட்டப் பிரிவுகள்",
+          scales_caption: "“நீதி என்பது சாட்சியம், சட்டம் மற்றும் அசைக்க முடியாத உண்மையால் மட்டுமே சமநிலை அடைகிறது.”",
+          cases_label: "நீதிமன்ற தீர்ப்புகள்",
+          cases_heading: "வழக்கு வெற்றிகள் & ஆவணங்கள்",
+          why_label: "நிறுவன சிறப்பு",
+          why_heading: "ஏன் எங்களைத் தேர்வு செய்ய வேண்டும்",
+          covenant_heading: "எங்கள் உறுதிமொழி",
+          covenant_sub: "வழக்காடலின் புனித உறுதிமொழி",
+          process_label: "முறையான படிநிலைகள்",
+          process_heading: "எங்கள் சட்ட நடைமுறை",
+          test_label: "வாடிக்கையாளர் சான்றுகள்",
+          test_heading: "வாடிக்கையாளர் உறுதிமொழி சான்றுகள்",
+          blog_label: "சட்ட விளக்கங்கள்",
+          blog_heading: "சட்டக் கட்டுரைகள் & தகவல்கள்",
+          cred_label: "அங்கீகாரங்கள்",
+          cred_heading: "தகுதிகள் & வழக்கறிஞர் மன்ற பதிவு",
+          faq_label: "விளக்கங்கள் & வழிகாட்டல்",
+          faq_heading: "அடிக்கடி கேட்கப்படும் கேள்விகள்",
+          contact_label: "அலுவலகப் பதிவேடு",
+          contact_heading: "மனு தாக்கல் & ஆலோசனை முன்பதிவு"
+        }
+      };
+
+      window.setLanguage = function(lang) {
+        const enBtn = document.getElementById('lang-en');
+        const taBtn = document.getElementById('lang-ta');
+        if (lang === 'ta') {
+          taBtn.classList.add('active');
+          enBtn.classList.remove('active');
+        } else {
+          enBtn.classList.add('active');
+          taBtn.classList.remove('active');
+        }
+
+        const dict = translations[lang] || translations.en;
+        document.querySelectorAll('[data-i18n]').forEach(el => {
+          const key = el.getAttribute('data-i18n');
+          if (dict[key]) {
+            el.textContent = dict[key];
+          }
+        });
+      };
+
+    })();
+  </script>
+</body>
+</html>

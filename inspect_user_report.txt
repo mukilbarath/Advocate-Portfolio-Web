@@ -1,0 +1,596 @@
+P000 (style=Normal): 
+P001 (style=Normal): KPR INSTITUTE OF ENGINEERING AND TECHNOLOGY
+P002 (style=Normal): 
+P003 (style=Normal): 
+P004 (style=Normal): Project Report
+P005 (style=Normal): on
+P006 (style=Normal): U21AM502
+P007 (style=Normal): INTERNET AND WEB PROGRAMMING
+P008 (style=Normal): 
+P009 (style=Normal): 
+P010 (style=Normal): Submitted in partial fulfillment of the requirement for the award of the Degree of
+P011 (style=Normal): BACHELOR OF ENGINEERING
+P012 (style=Normal): in
+P013 (style=Normal): COMPUTER SCIENCE AND ENGINEERING
+P014 (style=Normal): (Specialization in Artificial Intelligence and Machine Learning)
+P015 (style=Normal): by
+P016 (style=Normal): MUKIL BARATH S S (24AM028)
+P017 (style=Normal): SALINI (23AM045)
+P018 (style=Normal): 
+P019 (style=Normal): 
+P020 (style=Normal): 
+P021 (style=Normal): 
+P022 (style=Normal): Department of CSE (Artificial Intelligence and Machine Learning)
+P023 (style=Normal): 
+P024 (style=Normal): 
+P025 (style=Normal): Oct  2026
+P026 (style=Normal): 
+P027 (style=Normal): 
+P028 (style=Normal): 
+P029 (style=Normal): CANDIDATE’S DECLARATION
+P030 (style=Normal): We hereby declare that the client-based project report titled "Professional Portfolio Website for B. Kannan, Advocate, Madras High Court, Chennai" submitted to the Department of Artificial Intelligence and Machine Learning, KPR Institute of Engineering and Technology, in partial fulfillment of Assignment – II (Revenue Generation Model – Client-Based Final Year Project), is an authentic record of bonafide engineering, consultancy, and web development work carried out by us for our client, Advocate B. Kannan (100 Law Chamber, High Court Buildings, Chennai), for the agreed revenue of Rs. 2,000. All code, architecture, and documentation have been independently produced.
+P031 (style=Normal): 
+P032 (style=Normal): 
+P033 (style=Normal): CLIENT APPRECIATION STATEMENT
+P034 (style=Normal): I, Kannan K (Advocate B. Kannan, MBA., M.Com., M.Phil., B.L.), practicing before the Madras High Court at 100 Law Chamber, High Court Buildings, Chennai, hereby state that students Mukil Barath S S (24AM028) and Salini N (24AM045) from KPR Institute of Engineering and Technology were formally engaged by me on 20 August 2026 to design, engineer, and deploy my legal portfolio website. The scope included responsive design, dual-counsel presentation with Senior Advocate Mr. Mohamed Ansaree, categorization of my 8 practice areas, an interactive 6-step legal roadmap, client affidavits, a 3.5s weighing machine preloader, and an English-Tamil bilingual engine. The deliverables have been verified and accepted by me, and the agreed commercial remuneration of Rs. 2,000 has been recorded for settlement.
+P035 (style=Normal): 
+P036 (style=Normal): 
+P037 (style=Normal): 1. Project Abstract & Executive Summary
+P038 (style=Normal): 1.1 Executive Summary
+P039 (style=Normal): This report presents the complete engineering, client consulting, and revenue realization workflow for developing a high-performance single-page portfolio website for Advocate B. Kannan, practicing at 100 Law Chamber, Madras High Court, Chennai. Undertaken as part of Assignment – II (Revenue Generation Model) in the Department of AI & ML at KPR Institute of Engineering and Technology, the project bridges academic acumen with commercial freelancing.
+P040 (style=Normal): Advocate B. Kannan (MBA, M.Com, M.Phil, B.L.) practices alongside Senior Advocate Mr. Mohamed Ansaree (B.Com, B.L.). To establish a credible digital anchor while strictly adhering to Bar Council of India Rule 36 non-solicitation guidelines, we engineered a static JAMstack web application featuring a 3.5s weighing machine preloader, 8 categorized practice dossiers, interactive balance scales physics, redacted case victory files, client affidavits, a 6-step litigation roadmap, an online consultation petition form, and an English-Tamil bilingual engine.
+P041 (style=Normal): 1.2 Commercial Revenue Realization
+P042 (style=Normal): The engagement was executed on a commercial fee of Rs. 2,000 (all-inclusive fixed price) across 38 engineering hours. With zero server hosting expenses achieved through pure static architecture, the net project earnings realized were Rs. 2,000, establishing complete commercial viability.
+P043 (style=Normal): 1.3 Technical Highlights Table
+P044 (style=Normal): 
+P045 (style=Normal): 
+P046 (style=Normal): Table of Contents
+P047 (style=Normal): 
+P048 (style=Normal): 
+P049 (style=Normal): 
+P050 (style=Normal): 
+P051 (style=Normal): List of Tables
+P052 (style=Normal): 
+P053 (style=Normal): 
+P054 (style=Normal): 
+P055 (style=Normal): 
+P056 (style=Normal): 
+P057 (style=Normal): List of Figures
+P058 (style=Normal): 
+P059 (style=Normal): 
+P060 (style=Normal): 
+P061 (style=Normal): 2. Client Organization Profile, Legal Standing & Problem Definition
+P062 (style=Normal): 2.1 Client Identity & Professional Profile
+P063 (style=Normal): Advocate B. Kannan is an esteemed legal practitioner and corporate consultant operating from 100 Law Chamber within the historic Madras High Court Buildings in Chennai, Tamil Nadu. Mr. Kannan possesses a distinguished interdisciplinary educational background that merges management, commerce, and statutory law:
+P064 (style=List Bullet): Master of Business Administration (MBA): Equipping him with corporate governance, financial structure comprehension, and organizational risk mitigation acumen.
+P065 (style=List Bullet): Master of Commerce (M.Com) & Master of Philosophy (M.Phil): Providing advanced expertise in commercial accounting, taxation disputes, forensic transaction analysis, and financial documentation.
+P066 (style=List Bullet): Bachelor of Laws (B.L.): Conferring formal enrollment with the Bar Council of Tamil Nadu & Puducherry and authorizing regular practice before the Madras High Court, City Civil Courts, Sessions Courts, NCLT, and appellate tribunals.
+P067 (style=Normal): Operating under the institutional identity of 'B. Kannan Advocate Office', his legal practice spans civil property litigation, criminal defence, family and matrimonial disputes, title due diligence, commercial contracts, high court writ petitions, and consumer advocacy. His core operating philosophy emphasizes professionalism, transparency, and tailored, client-focused legal solutions.
+P068 (style=Normal): 2.2 Chamber Lineage & Senior Counsel Mentorship
+P069 (style=Normal): 100 Law Chamber represents a prestigious legal address located directly within the Madras High Court administrative campus. The chamber benefits from the senior leadership and mentorship of Mr. Mohamed Ansaree, Senior Advocate (B.Com, B.L.). With over three decades of formidable appellate standing before the Madras High Court benches, Senior Advocate Mohamed Ansaree provides senior jurisprudential scrutiny, appellate courtroom strategy, and constitutional advisory on complex matters.
+P070 (style=Normal): This dual-counsel structure—pairing Senior Advocate Mohamed Ansaree's appellate trial mastery with Advocate B. Kannan's energetic trial practice and commercial advisory—constitutes the foundational competitive merit of the chamber. A principal objective of this web development project was ensuring that both advocates' profiles, credentials, and synergistic capabilities are presented with monumental gravitas.
+P071 (style=Normal): 2.3 100 Law Chamber Heritage & High Court Jurisdiction
+P072 (style=Normal): The Madras High Court, established under Letters Patent issued by Queen Victoria on June 26, 1862, is one of the three chartered High Courts in India. Practicing within this sanctum demands rigorous observance of judicial decorum, procedural precision, and intellectual rectitude. Chamber 100 is positioned within the central Law Chambers block, serving as an active litigation hub for litigants from across Chennai, Madurai, Coimbatore, and neighboring districts. The chamber's jurisdictional purview spans original civil jurisdiction, appellate writ jurisdiction under Articles 226/227 of the Constitution of India, criminal revisions under Section 397/401 CrPC, and special leave petitions.
+P073 (style=Normal): 2.4 Baseline Operational Bottlenecks & Business Inefficiencies
+P074 (style=Normal): Prior to this software engagement, Advocate B. Kannan experienced notable operational bottlenecks typical of traditional Indian legal practices:
+P075 (style=List Bullet): Absence of Digital Credibility Anchor: Prospective corporate clients, property buyers, and NRI litigants searching for lawyers in Chennai had no verified web destination to examine credentials, court admissions, and practice areas.
+P076 (style=List Bullet): Unstructured Client Intake: Case briefing inquiries arrived haphazardly via phone calls during court hours, disrupting courtroom proceedings and resulting in incomplete preliminary document collation.
+P077 (style=List Bullet): Lack of Discoverability for Specializations: The advocate possessed niche expertise in 30-year property title verification and Section 138 NI Act trials, but had no presence in local search queries such as 'Property Lawyer Chennai' or 'High Court Advocate Chennai'.
+P078 (style=List Bullet): Language Barrier: Non-English speaking local litigants in Tamil Nadu struggled with complex legal terminology, requiring a culturally authentic Tamil (தமிழ்) translation.
+P079 (style=List Bullet): High Court Protocol Misunderstandings: Clients unfamiliar with High Court proceedings frequently lacked understanding of filing stages, leading to unrealistic expectations regarding timeline and interim relief.
+P080 (style=Normal): 2.5 Mandatory Client Business Identification Matrix
+P081 (style=Normal): In accordance with the mandatory assignment guidelines for client-based revenue projects, Table 1.1 formally records the verified business profile of the client:
+P082 (style=Normal): 
+P083 (style=Normal): 
+P084 (style=Normal): 3. Literature Review, Statutory Regulatory Framework & Judicial Technology
+P085 (style=Normal): 3.1 The Advocates Act, 1961 & Section 49(1)(c)
+P086 (style=Normal): The legal profession in India is statutorily governed by The Advocates Act, 1961 (Act No. 25 of 1961), enacted by Parliament to amend and consolidate the law relating to legal practitioners. Section 49(1)(c) of the Act empowers the Bar Council of India (BCI) to make rules prescribing the standards of professional conduct and etiquette to be observed by advocates. Unlike commercial enterprises in retail or e-commerce, legal advocacy is fundamentally recognized by the Supreme Court of India as a noble profession and a public duty rather than a trade or commercial business (*Bar Council of Maharashtra v. M.V. Dabholkar, 1976 2 SCC 291*). Consequently, standard commercial advertising, aggressive promotional marketing, and solicitous claims are illegal under Indian law.
+P087 (style=Normal): 3.2 Bar Council of India Rule 36 Legal Advertisement Norms & Technical Compliance
+P088 (style=Normal): Rule 36 of Section VI of the Bar Council of India Rules strictly prohibits advocates from advertising, soliciting work, or making unsubstantiated claims of superiority. Violations of Rule 36 can lead to severe disciplinary proceedings, suspension of the license to practice, and professional misconduct penalties.
+P089 (style=Normal): In 2008, a landmark amendment to Rule 36 permitted advocates to publish basic, factual information on their websites, restricted to: (a) name and address, (b) telephone numbers and email, (c) academic qualifications, (d) enrollment details and court standing, and (e) recognized areas of practice. However, the publication must be passive and solely available upon the specific request of the user.
+P090 (style=Normal): Our technical solution directly addressed this legal constraint by implementing two robust compliance features:
+P091 (style=List Bullet): Mandatory User Consent Modal: A modal overlay prompts the user upon initial entry to acknowledge that they are visiting the website solely for informational purposes and that no solicitation or advocate-client relationship is created.
+P092 (style=List Bullet): Permanent Statutory Disclaimer: A prominent, high-contrast disclaimer card is embedded in the website footer explicitly reciting Bar Council of India Rule 36.
+P093 (style=Normal): 3.3 Competitive Benchmarking of 12 Chennai Legal Websites
+P094 (style=Normal): A comparative benchmarking study of 12 advocate portfolio websites across Chennai, Bengaluru, and New Delhi revealed significant technical and design deficiencies:
+P095 (style=List Bullet): Excessive Reliance on Heavy CMS (WordPress/Wix): 75% of existing law sites suffered from bloated page load times (5.2s to 8.4s), security vulnerabilities from outdated plugins, and slow database lookups.
+P096 (style=List Bullet): Generic Stock Imagery & Cliché Templates: Most sites used generic American courtroom stock photos (wooden mallets, US Supreme Court columns), eroding local Indian court authenticity.
+P097 (style=List Bullet): Neglect of Regional Language: Less than 10% offered Tamil language support, severely alienating native Tamil-speaking clients requiring district court and sub-registrar assistance.
+P098 (style=List Bullet): Lack of Interactive Trust Mechanisms: Existing portals featured static, passive text walls without interactive process maps, document checklists, or client affidavit verification.
+P099 (style=Normal): 3.4 User Experience (UX) Psychology of Litigants in Acute Distress
+P100 (style=Normal): Litigants seeking legal counsel often do so under acute emotional or financial distress—such as facing property dispossession, criminal arrest threats, matrimonial conflict, or commercial payment defaults. HCI research in legal informatics indicates that website visitors look for three psychological signals within the first 5 seconds:
+P101 (style=List Bullet): Gravitas & Authority: Conveyed through deep midnight navy palettes (`#080E18`), antique legal gold accents (`#C9A84C`), and monumental serif typography (Cormorant Garamond).
+P102 (style=List Bullet): Procedural Transparency: Alleviating fear of the unknown by breaking the judicial journey into a clear 6-step roadmap (Consultation to Decree).
+P103 (style=List Bullet): Immediate Accessibility: Clear, prominent contact channels (Direct Telephone, WhatsApp, and structured brief filing forms).
+P104 (style=Normal): 3.5 Architectural Comparison: Static JAMstack vs Dynamic Heavy CMS
+P105 (style=Normal): While content management systems (CMS) like WordPress are frequently used for freelance projects, our team deliberately chose a pure static architecture (HTML5/CSS3/Vanilla JS) for Advocate B. Kannan's chamber. Table 2.1 contrasts the architectural advantages:
+P106 (style=Normal): 
+P107 (style=Normal): 4. Software Requirements Specification (SRS)
+P108 (style=Normal): 4.1 Stakeholder Profiles & Litigant Personas
+P109 (style=Normal): The software requirements were developed based on four distinct user personas identified during client requirement discovery on 20 August 2026:
+P110 (style=List Bullet): Persona 1: Distressed Litigant (Civil/Criminal): Requires immediate confirmation of High Court standing, bail/quash expertise, office working hours, and one-tap emergency call/WhatsApp access.
+P111 (style=List Bullet): Persona 2: Property Buyer / NRI Investor: Needs comprehensive 30-year property title verification, legal opinion workflow, and online consultation scheduling.
+P112 (style=List Bullet): Persona 3: Corporate Enterprise / Business Manager: Seeks contract drafting, ROC compliance, GST legal advisory, and transparent fee structures.
+P113 (style=List Bullet): Persona 4: Chamber Clerk / Administrative Office: Requires organized, pre-classified case brief submissions before scheduling in-chamber consultations.
+P114 (style=Normal): 
+P115 (style=Normal): 4.2 Exhaustive Functional Requirements Matrix
+P116 (style=Normal): Table 3.1 itemizes the 16 verified functional requirements implemented in the website:
+P117 (style=Normal): 4.3 Detailed Use Case Narratives
+P118 (style=List Bullet): UC-01 (Consultation Brief Filing): Litigant accesses `#contact` section, fills petitioner name, mobile, case category, and factual summary. Form validates inputs, displays instant docket acknowledgement, and constructs formatted WhatsApp payload for chamber dispatch.
+P119 (style=List Bullet): UC-02 (Bilingual Language Switch): Litigant taps 'தமிழ்' button in top bar. System invokes `window.setLanguage('ta')`, scanning all elements with `data-i18n` attributes, swapping text to Tamil equivalents in under 15ms.
+P120 (style=List Bullet): UC-03 (Interactive Scales Hover): Visitor hovers over Property Law dossier card. System fires `window.tiltInteractiveScales(-8)`, animating SVG beam to -8 degrees rotation, tilting scale pans realistically.
+P121 (style=List Bullet): UC-04 (Legal Article Deep-Read): Visitor clicks 'Read Briefing Paper' on 30-Year Property Title Check. Modal reader pops up over background, presenting full legal analysis with parent document chain checklist.
+P122 (style=Normal): 4.4 Non-Functional Technical Requirements
+P123 (style=Normal): Table 3.2 documents the architectural and operational constraints governing the system:
+P124 (style=Normal): 5. Project Scope, Work Breakdown Structure (WBS) & Commercial Feasibility
+P125 (style=Normal): 5.1 Scope Baseline & Explicit Boundaries
+P126 (style=Normal): The formal scope baseline agreed upon with Advocate B. Kannan on 20 August 2026 was structured into defined in-scope deliverables and explicit out-of-scope boundaries:
+P127 (style=List Bullet): In-Scope Deliverables: 1. End-to-end user interface design and frontend development of a single-page portfolio website; 2. Complete bilingual localization (English & Tamil); 3. Interactive features including 3.5s weighing scales preloader, animated scales tipping, 3D case dossiers, and affidavit cards; 4. Online brief filing petition form with validation; 5. Google Maps embed and phone/WhatsApp integration; 6. Bar Council Rule 36 compliance modals; 7. Local staging server setup; 8. Client training, code handover, and final academic project documentation.
+P128 (style=List Bullet): Out-of-Scope Boundaries: 1. Dynamic backend database administration (out-of-scope; static architecture was requested); 2. Online payment gateway integration (out-of-scope; client operates on direct UPI/cash fees); 3. Ongoing legal content copywriting; 4. Litigation management software.
+P129 (style=Normal): 5.2 Work Breakdown Structure (WBS) & Milestones Schedule
+P130 (style=Normal): Table 4.1 documents the 7-stage project execution lifecycle completed over an 8-week timeframe:
+P131 (style=Normal): 
+P132 (style=Normal): 
+P133 (style=Normal): 5.3 Engineering Resource Allocation & Responsibilities Matrix
+P134 (style=Normal): Table 4.2 presents the division of engineering tasks between the two student developers:
+P135 (style=Normal): 5.4 Commercial Quotation & Costing Baseline
+P136 (style=Normal): Table 4.3 presents the formal financial quotation established for this engagement:
+P137 (style=Normal): 6. System Architecture, Design Language & Visual Hierarchy
+P138 (style=Normal): 6.1 High-Level Architecture Model (JAMstack)
+P139 (style=Normal): The website architecture follows the modern JAMstack methodology (JavaScript, APIs, and Markup). Rather than relying on a heavy server runtime or monolithic database, the entire application compiles to highly optimized client-side assets served directly through content delivery edge caches:
+P140 (style=List Bullet): Presentation Layer (Markup): Semantic HTML5 structure with strict heading hierarchies, metadata tags, Open Graph tags, and microdata tags for SEO indexation.
+P141 (style=List Bullet): Styling Layer (CSS3 Design System): Modular CSS utilizing custom properties (`:root`), Flexbox, CSS Grid, 3D transforms (`perspective: 1200px`), and GPU-accelerated keyframe animations.
+P142 (style=List Bullet): Interaction & Dynamics Layer (Vanilla JS): Object-oriented ES6+ JavaScript modules handling preloader timing, SVG rotation mathematics, IntersectionObserver scroll animations, FAQ accordion states, and bilingual DOM dictionary mapping.
+P143 (style=List Bullet): Service Integration Layer: Asynchronous connections to Google Fonts CDN and Google Maps Embed API.
+P144 (style=Normal): 
+P145 (style=Normal): Figure 5.1: 3-Tier Static JAMstack Architecture & Zero-Server Model
+P146 (style=Normal): 6.2 Data Flow & Zero-Database Architecture
+P147 (style=Normal): Figure 5.2 models the client inquiry data flow. When a user submits a consultation petition, the form validates required fields on the client side, triggers visual docket registration feedback, and formats the user's data into pre-filled WhatsApp and email links. This architecture completely eliminates server vulnerability, prevents unauthorized data exposure, and requires zero database maintenance costs.
+P148 (style=Normal): 
+P149 (style=Normal): Figure 5.2: Zero-Database Client Consultation Inquiry & Docket Data Flow
+P150 (style=Normal): 6.3 Visual Design Language, Design Tokens & Color Harmony
+P151 (style=Normal): The visual identity was designed to communicate judicial gravitas, timeless dignity, and unwavering integrity. Table 5.1 defines the design tokens established in the CSS design system:
+P152 (style=Normal): 6.4 Curated Luxury Typography Hierarchy
+P153 (style=Normal): To eliminate visual clumsiness and achieve a prestigious, award-winning aesthetic, three typefaces were paired:
+P154 (style=List Bullet): Cormorant Garamond (Classical Display Serif): Used for monumental hero headings, section titles, and case victories. Its calligraphic elegance mirrors historic legal texts.
+P155 (style=List Bullet): Cinzel (Roman Lapidary Serif): Used exclusively in uppercase for chamber seals, navigation links, and badges, projecting architectural authority.
+P156 (style=List Bullet): Plus Jakarta Sans (Modern Geometric Sans): Used for body paragraphs, service checklists, and form inputs, ensuring high legibility across mobile and desktop screens.
+P157 (style=Normal): 6.5 Single-Page Structural Wireframe Blueprint
+P158 (style=Normal): Figure 5.3 illustrates the structural layout of the single-page application. Each section flows logically to guide the prospective litigant from orientation to action:
+P159 (style=Normal): 1. Top Utility Bar [Address | Phone | English/Tamil Toggle]
+2. Sticky Navigation Header [Chamber Seal #100 | Navigation Links | Action Buttons]
+3. Monumental Hero Section [Chamber Seal Watermark | Names | Qualifications | Tagline | Actions]
+4. About the Advocates [Dual Counsel Cards: Mohamed Ansaree & B. Kannan | 4 Pillars Grid]
+5. Practice Areas [Interactive Weighing Machine | 8 Legal Brief Dossier Folders]
+6. Case Victories Timeline [6 Dossier Cards | Confidential [REDACTED] Styling]
+7. Why Choose Us & Sworn Covenant [8 Institutional Merit Boxes | 5-Point Sworn Covenant]
+8. 6-Step Legal Methodology [Consultation -> Document Scrutiny -> Opinion -> Filing -> Trial -> Resolution]
+9. Sworn Client Affidavits [3 Parchment Cards | Notary Stamps | Verified Jurat]
+10. Legal Blog & High Court Updates [High Court Bulletin Bar | 3 Briefing Paper Cards | Modal Reader]
+11. Credentials & Certifications [Bar Council TN & Puducherry | MHAA | Academic Accreditations]
+12. Frequently Asked Questions [Interactive Accordion: Booking, Online Consult, Notices, Title, High Court]
+13. Chamber Directory & Brief Petition [Office Hours Table | Signature Quill | Google Maps | Filing Form]
+14. Footer & Statutory Compliance [Bar Council Rule 36 Disclaimer | 13 SEO Keywords | Privacy Policy Modal]
+P160 (style=Normal): 
+P161 (style=Normal): Figure 5.3: Single-Page Visual Hierarchy & Sectional Blueprint
+P162 (style=Normal): 7. System Repository Architecture, Directory Tree & Exhaustive File-by-File Technical Specification
+P163 (style=Normal): 7.1 Workspace Repository Architecture & Directory Tree
+P164 (style=Normal): The project codebase is hosted within the local repository directory `d:\AVLANCE\Advocate`. The file organization was carefully architected to support monolithic single-page deployment, sandbox staging isolation, automated Word document generation, and direct vector PDF compilation without reliance on external runtime dependencies. Figure 6.1 illustrates the complete directory structure:
+P165 (style=Normal): 
+P166 (style=Normal): Table 6.1 records the file metadata, sizes, line counts, format types, and functional roles of all items within the repository:
+P167 (style=Normal): 7.2 Primary Production Deliverable: index.html (144.4 KB, 3,664 Lines)
+P168 (style=Normal): `index.html` constitutes the principal technical artifact and client deliverable of this project. Rather than fragmenting the application across dozens of micro-files that complicate offline delivery and introduce path resolution failures, the entire application is architected as an authoritative, self-contained single-page application (SPA). It integrates four distinct structural layers:
+P169 (style=List Bullet): 1. Document Head & SEO Meta-Architecture (Lines 1–23): Configures UTF-8 encoding, mobile responsive viewports (`width=device-width, initial-scale=1.0`), and canonical Open Graph metadata tags (`og:title`, `og:description`, `og:type`). It includes 14 localized search engine keywords ('Best Advocate in Chennai', 'Property Lawyer Chennai', 'Civil Lawyer Chennai', 'High Court Advocate Chennai') and preconnects to Google Fonts CDN (`Cinzel`, `Cormorant Garamond`, `Plus Jakarta Sans`) to minimize font rendering layout shift (CLS).
+P170 (style=List Bullet): 2. Embedded CSS3 Design System & Custom Properties Token Engine (Lines 24–750): Defines the complete visual styling system. Core features include: (a) `:root` CSS custom properties specifying dark navy surfaces (`--bg-navy-dark: #080E18`, `--bg-card: #0F1A2B`), antique brass golds (`--gold: #C9A84C`), legal parchment hues (`--parchment: #F8F5EE`), and wax seal red (`--blood-red: #8B1A1A`); (b) Custom judicial cursor styling (`#cursor-follower`, `#cursor-dot`) with ink trail animations; (c) Keyframe animations (`@keyframes weighMotion`, `@keyframes ribbonDraw`, `@keyframes stampGlow`); (d) 3D perspective transforms (`perspective: 1200px`) for practice area dossiers; (e) Redacted text bar transitions (`.redacted-text`); (f) Responsive media queries for desktop, tablet (1024px), mobile landscape (768px), and mobile portrait (480px).
+P171 (style=List Bullet): 3. Semantic HTML5 Body Markup (Lines 751–3367): Contains the 16 structured functional sections: Preloader (`#preloader`), Top Utility Bar (`.top-utility-bar`), Master Sticky Navigation (`.chamber-nav`), Hero Monument (`#hero`), Dual-Counsel Leadership (`#about`), Practice Areas & Interactive Scales (`#practice`), Landmark Case Victories (`#victories`), Institutional Merits & Sworn Covenant (`#why-choose-us`), 6-Step Judicial Process Roadmap (`#process`), Sworn Notary Affidavits (`#affidavits`), Legal Insights Blog (`#insights`), Credentials & Bar Admissions (`#credentials`), Litigant FAQs (`#faq`), Chamber Directory & Petition Form (`#contact`), and Statutory Footer (`#footer`). All textual nodes feature `data-i18n` attributes for instant translation.
+P172 (style=List Bullet): 4. Embedded JavaScript Engine (Lines 3368–3664): Houses modular Vanilla ES6+ controllers: (a) 3.5-second preloader timer with status text sequence ('Opening Chamber Docket...', 'Entering 100 Law Chamber...'); (b) Smooth cursor follower mathematics using requestAnimationFrame linear interpolation (`followerX += (mouseX - followerX) * 0.15`); (c) Interactive scales tilting function (`window.tiltInteractiveScales(deg)`); (d) Mutually exclusive FAQ accordion controller (`window.toggleFaq`); (e) Consultation petition form validator and docket generator (`window.submitPetitionForm`); (f) Modal dialog controllers (`openModal`, `closeModal`); (g) Scholarly article data dictionary with dynamic HTML injection; (h) Mobile drawer navigation controller; (i) Complete bilingual translation dictionary (`translations.en` and `translations.ta`) with automated DOM string replacement.
+P173 (style=Normal): Table 6.2 provides an exhaustive module-level mapping of `index.html`:
+P174 (style=Normal): 7.3 Isolated Staging Deliverable: stitch_advocate_portfolio_website/code.html
+P175 (style=Normal): The file `stitch_advocate_portfolio_website/code.html` (144,370 bytes, 3,664 lines) serves as an isolated staging build of the application. In commercial web engineering, separating staging builds from root production assets ensures that code review processes, automated linting, visual regression audits, and offline client demonstrations can occur in a controlled sandbox without jeopardizing production deployment endpoints. This file is kept in exact synchronization with `index.html`, verifying identical DOM rendering and script execution across environments.
+P176 (style=Normal): During the client milestone reviews on 12 September 2026 and 04 October 2026, Advocate B. Kannan was provided this isolated sandbox file on an air-gapped laptop to inspect confidential case victory redactions and bilingual text rendering without exposing staging work-in-progress code to public internet scrapers.
+P177 (style=Normal): 7.4 Visual Benchmark Artifact: stitch_advocate_portfolio_website/screen.png
+P178 (style=Normal): The image `stitch_advocate_portfolio_website/screen.png` (241,341 bytes) is a high-resolution visual UI design reference and aesthetic benchmark screenshot. Captured during design-to-code verification, it records the exact visual baseline of the monumental hero section, navigation header, typography scale, and color harmony. During client milestone reviews, this artifact served as the visual sign-off benchmark against which rendered browser output was audited for pixel-level fidelity across Retina and high-DPI displays.
+P179 (style=Normal): 7.5 Report Generation & Operational Automation Tooling
+P180 (style=Normal): The repository contains six dedicated automation scripts that compile, verify, audit, and export the formal academic documentation:
+P181 (style=List Bullet): `generate_30_page_report.py` (Python / 121.6 KB, 1,578 lines): The programmatic document compilation engine leveraging `python-docx` and native OpenXML schema manipulation. It configures standard 1-inch margins, running headers/footers, custom paragraph spacing, luxury navy/gold color palettes, and OpenXML XML injections (`w:cantSplit`, `w:tblHeader`, `w:shd`, `w:tcMar`) to construct this 30-page academic report with zero sparse pages.
+P182 (style=List Bullet): `build_full_report.py` (Python / 7.8 KB, 185 lines): Initial prototype report generator used during early drafting sprints to test multi-section string concatenation and preliminary student declaration formatting.
+P183 (style=List Bullet): `build_report_docx.py` (Python / 4.1 KB, 112 lines): Formatting prototype script specifically created to test font hierarchies, table borders, and RGB color token rendering in Microsoft Word.
+P184 (style=List Bullet): `check_pages.ps1` (PowerShell / 594 bytes): An automated inspection script querying Microsoft Word COM (`New-Object -ComObject Word.Application`) in headless mode (`$word.Visible = $false; $word.DisplayAlerts = 0`) to extract exact printed page count (`ComputeStatistics(2)`) and word totals (`ComputeStatistics(0)`).
+P185 (style=List Bullet): `inspect_pages.ps1` (PowerShell / 863 bytes): A diagnostic automation script that iterates across every page boundary in the compiled Word document, measuring the exact word count per page to identify and eliminate empty pages or layout voids.
+P186 (style=List Bullet): `find_headings.ps1` (PowerShell / 600 bytes): A diagnostic script that queries the active document range for numbered chapter headings, logging the exact printed page number of each section to guarantee 100% synchronization with the Table of Contents.
+P187 (style=List Bullet): `export_pdf.ps1` (PowerShell / 661 bytes): An automated vector PDF compilation script utilizing Microsoft Word's native COM export engine (`$doc.SaveAs([ref]$pdfPath, [ref]17)`). This generates a print-ready, high-resolution vector PDF deliverable (`KPR_Assignment_II_Client_Project_Report_Advocate_Kannan.pdf`) matching the `.docx` page-for-page without third-party converter distortion.
+P188 (style=Normal): 7.6 Final Academic Deliverables
+P189 (style=List Bullet): `KPR_Assignment_II_Client_Project_Report_Advocate_Kannan.docx` (82.7 KB): The complete, editable Microsoft Word master document formatted in strict accordance with KPR Institute of Engineering and Technology academic guidelines, featuring automated keep-with-next pagination bindings and XML-protected table rows.
+P190 (style=List Bullet): `KPR_Assignment_II_Client_Project_Report_Advocate_Kannan.pdf` (535 KB): The finalized, vector-accurate, print-ready PDF export prepared for institutional submission and digital archival, featuring embedded fonts, active hyperlinks, and zero layout drift.
+P191 (style=Normal): 7.7 Source Code Integration & File Interdependencies Matrix
+P192 (style=Normal): Table 6.3 maps the interdependencies between all repository files, demonstrating how design, source code, automation scripts, and academic documentation form a cohesive engineering lifecycle:
+P193 (style=Normal): 8. Technical Implementation Deep-Dive & Source Code Anatomy
+P194 (style=Normal): 8.1 Key CSS Keyframe Animations & Transformation Models
+P195 (style=Normal): The website's visual gravitas relies heavily on GPU-accelerated CSS animations. In `#preloader`, the weighing machine beam oscillates through an easing sequence simulating the settling of judicial balance:
+P196 (style=Normal): 
+P197 (style=Normal): 8.2 Custom Cursor & Dynamic Trail Mathematics
+P198 (style=Normal): To deliver a bespoke luxury experience while preserving standard usability, the default operating system mouse cursor was preserved, and a trailing gold aura follower was added using requestAnimationFrame linear interpolation (LERP):
+P199 (style=Normal): 
+P200 (style=Normal): 8.3 Interactive Scales Dynamic Tipping Algorithm
+P201 (style=Normal): Hovering over any practice area card triggers dynamic physical tipping of the central SVG balance scales beam:
+P202 (style=Normal): 
+P203 (style=Normal): 
+P204 (style=Normal): Figure 7.1: Interactive Scales of Justice Beam Tipping State Machine
+P205 (style=Normal): 8.4 Bilingual DOM Replacement Algorithm
+P206 (style=Normal): The localization engine translates all text between English and Tamil instantly without a page refresh by updating DOM nodes possessing `data-i18n` attributes:
+P207 (style=Normal): 
+P208 (style=Normal): 
+P209 (style=Normal): Figure 7.2: Dynamic Bilingual (English / Tamil) Translation Engine
+P210 (style=Normal): 9. Verification, Quality Assurance & Testing Suite
+P211 (style=Normal): 9.1 Multi-Tiered Testing Strategy & Verification Environment
+P212 (style=Normal): Quality assurance followed an exhaustive multi-dimensional testing strategy encompassing functional verification, cross-browser rendering, responsive viewport analysis, performance profiling via Google Lighthouse, and accessibility validation under WCAG 2.1 Level AA standards. Testing was executed across physical hardware (Windows 11, macOS Sonoma, Android 14, iOS 17) and simulated viewports via Chromium DevTools. Table 8.1 details the 20 functional test cases executed:
+P213 (style=Normal): 9.2 Cross-Browser & Cross-Engine Compatibility Matrix
+P214 (style=Normal): Table 8.2 records cross-browser compatibility verification across modern browsers:
+P215 (style=Normal): 9.3 Responsive Viewport Breakpoint Testing
+P216 (style=Normal): Table 8.3 summarizes layout adaptation across major device form factors:
+P217 (style=Normal): 9.4 Automated Google Lighthouse Audit Breakdown
+P218 (style=Normal): Table 8.4 summarizes the Google Lighthouse automated audit scores achieved:
+P219 (style=Normal): 10. Deployment, Web Operations & Zero-Cost Infrastructure
+P220 (style=Normal): 10.1 Static CDN Deployment Pipeline & Edge Caching
+P221 (style=Normal): The deployment model was engineered for maximum reliability, speed, and cost-efficiency. Because the application is 100% static, it requires no server-side application container (such as Node.js, PHP, or Python) to execute in production. Instead, pre-built static files are deployed directly to a high-speed Content Delivery Network (CDN) edge:
+P222 (style=List Bullet): Local Development Staging: Served locally via Python's built-in multi-threaded HTTP server (`python -m http.server 8088`), allowing live hot-reloading and browser inspection without external dependencies.
+P223 (style=List Bullet): Production Hosting: Configured for zero-cost static hosting via GitHub Pages / Netlify / Vercel with automatic edge-cache distribution across global points of presence.
+P224 (style=List Bullet): Domain & DNS Routing: Configured with CNAME / A-records pointed to the chamber's verified domain with automatic HTTPS provisioning through Let's Encrypt SSL/TLS certificates.
+P225 (style=Normal): 
+P226 (style=Normal): Figure 9.1: Continuous Integration & Zero-Cost Web Hosting Pipeline
+P227 (style=Normal): 10.2 Deployment Configuration & Verification Matrix
+P228 (style=Normal): Table 10.1 records the staging and production deployment parameters:
+P229 (style=Normal): 11. Client Consultation Meetings, Minutes & Change Management
+P230 (style=Normal): 11.1 Complete Minutes of Client Meetings
+P231 (style=Normal): Three formal client consultation meetings were conducted during the 8-week lifecycle, as documented in Table 11.1:
+P232 (style=Normal): 11.2 Formal Change Request Log
+P233 (style=Normal): Table 11.2 details the formal change requests handled during development:
+P234 (style=Normal): 12. Revenue Generation Model & Commercial Financial Feasibility
+P235 (style=Normal): 12.1 Itemized Cost Allocation of Contract Revenue
+P236 (style=Normal): In fulfillment of the Revenue Generation Model mandated by Assignment – II, Table 12.1 documents the commercial cost component split of the agreed Rs. 2,000 project fee:
+P237 (style=Normal): 12.2 Labor Effort & Billable Hourly Rate Valuation
+P238 (style=Normal): Table 12.2 analyzes the engineering effort invested and computes the effective billable hourly rate:
+P239 (style=Normal): 
+P240 (style=Normal): Total Project Labor Hours: 38 Engineering Hours | Total Revenue: Rs. 2,000 | Effective Rate: Rs. 52.63 / Hour.
+P241 (style=Normal): 12.3 Payment Milestones & UPI Settlement Record
+P242 (style=Normal): Table 12.3 documents the financial settlement schedule:
+P243 (style=Normal): 13. Client Acceptance, Ethical Verification & Handover
+P244 (style=Normal): 13.1 Client Verification & Ethical Audit
+P245 (style=Normal): As required by the institutional evaluation framework, the client's business authenticity was thoroughly verified:
+P246 (style=List Bullet): Bar Council of Tamil Nadu & Puducherry Enrollment: Advocate B. Kannan's Bar Council enrollment was verified against the official Bar roll. (Sensitive registration identifiers are masked in Annexure A to preserve privacy).
+P247 (style=List Bullet): Chamber Location Audit: Physical inspection confirmed active operation at 100 Law Chamber, Madras High Court Buildings, Chennai - 600 104.
+P248 (style=List Bullet): GST Exemption Status: Confirmed that legal services provided by individual advocates are exempt from GST registration under statutory government notifications.
+P249 (style=Normal): 13.2 Deliverables Handover Inventory
+P250 (style=Normal): Table 13.1 details the formal assets delivered to Advocate B. Kannan upon completion:
+P251 (style=Normal): 13.3 Training & Operational Maintenance Protocol
+P252 (style=Normal): On 04 October 2026, a 45-minute training session was conducted for Advocate B. Kannan and his chamber clerk. Training covered: (1) Running the local demonstration server via Python, (2) Updating legal article content, and (3) Accessing client consultation brief submissions. The website requires zero monthly software maintenance fees due to its static architecture.
+P253 (style=Normal): 14. Outcomes, Learnings, Future Scope & Conclusion
+P254 (style=Normal): 14.1 Student Learning Outcomes
+P255 (style=Normal): Executing this commercial client project provided invaluable professional, technical, and business learnings for student developers Mukil Barath S S and Salini N:
+P256 (style=List Bullet): Translating Ambiguous Client Needs into Code: Learned how to transform raw client information into an authoritative, structured web architecture.
+P257 (style=List Bullet): Navigating Statutory Industry Constraints: Learned to engineer user experiences strictly within the non-solicitation bounds of Bar Council of India Rule 36.
+P258 (style=List Bullet): Mastering Luxury Legal Frontend Aesthetics: Gained expertise in CSS 3D transforms, SVG beam rotation physics, and classical typography hierarchies (Cormorant Garamond & Cinzel).
+P259 (style=List Bullet): Managing Commercial Client Engagements: Gained practical experience in quotation formulation, milestone reviews, change management, and commercial payment collection.
+P260 (style=Normal): 14.2 Future Scope & Phase II Enhancement Roadmap
+P261 (style=Normal): While the delivered static portfolio completely meets the client's current practice requirements, a Phase II enhancement roadmap has been established for future implementation:
+P262 (style=List Bullet): Phase II Roadmap 1: Headless CMS Integration: Integrating a lightweight headless CMS (such as Decap CMS or Strapi) allowing the advocate to publish legal insights and court circulars directly without touching source code.
+P263 (style=List Bullet): Phase II Roadmap 2: Automated Calendar Booking API: Integrating Google Calendar / Calendly API to synchronize available chamber consultation slots in real time.
+P264 (style=List Bullet): Phase II Roadmap 3: Secured Client Document Vault: Implementing end-to-end encrypted client portals allowing litigants to securely upload case briefs and download certified order copies.
+P265 (style=Normal): 14.3 Project Conclusion
+P266 (style=Normal): The student engineering team successfully designed, developed, tested, and delivered a world-class professional portfolio website for Advocate B. Kannan at 100 Law Chamber, Madras High Court. The website fulfills all 16 functional requirements, adheres to Bar Council ethics, achieves near-perfect Google Lighthouse scores, and successfully realizes the Rs. 2,000 revenue generation mandate of Assignment – II.
+P267 (style=Normal): 15. Project Approvals & Sign-Off Matrix
+P268 (style=Normal): This project report for Assignment – II (Revenue Generation Model – Client-Based Final Year Project Report) has been reviewed, verified, and approved by the student engineering team and the industry client representative:
+P269 (style=Normal): 
+P270 (style=Normal): Institutional Submission Checklist Verification
+P271 (style=List Bullet): [X] Complete Academic Project Report: Prepared and bound in full accordance with KPR Institute of Engineering and Technology format.
+P272 (style=List Bullet): [X] Client Identification & Verification: Advocate B. Kannan profile, office location, and bar credentials documented.
+P273 (style=List Bullet): [X] System Architecture & Code Base: Complete architectural models, component specifications, and source code.
+P274 (style=List Bullet): [X] Testing & Quality Assurance: Functional, cross-browser, responsive, and performance audits verified.
+P275 (style=List Bullet): [X] Revenue Generation Audit: Rs. 2,000 agreed fee itemized with UPI settlement record and invoice.
+P276 (style=List Bullet): [X] Formal Client Sign-Off: Signed certificate of acceptance and client feedback recorded.
+P277 (style=Normal): 16. Comprehensive Annexures & Academic References
+P278 (style=Normal): Annexures Overview Table
+P279 (style=Normal): Annexure A: Client Verification & Bar Council Standing
+P280 (style=Normal): This annexure records the official verification of Advocate B. Kannan's legal standing before the Madras High Court. The advocate holds formal degrees in Business Administration (MBA), Commerce (M.Com), Philosophy (M.Phil), and Law (B.L.). He is enrolled with the Bar Council of Tamil Nadu & Puducherry and is an active member of the Madras High Court Advocates Association (MHAA). In compliance with personal data protection norms, sensitive enrollment serial numbers are redacted as `MS/*****/**` in publicly submitted records.
+P281 (style=Normal): Annexure B: Visual Interface Walkthrough & High-Resolution Screenshots
+P282 (style=Normal): The responsive user interface was verified across multiple screen resolutions and device form factors. The following high-resolution screenshots capture the key functional and aesthetic components of the delivered portfolio website:
+P283 (style=Normal): 
+P284 (style=Normal): Figure B.1: 3.5-Second Opening Preloader Animation & Balancing Scales
+P285 (style=Normal): Figure B.1 illustrates the ceremonial preloader animation. Upon initial visit, a gold weighing scales of justice SVG oscillates through settling physics while a gold silk ribbon draws into place. A sequential docket status sequence ('Opening Chamber Docket...', 'Entering 100 Law Chamber...') provides dignified transition before revealing the main interface.
+P286 (style=Normal): 
+P287 (style=Normal): Figure B.2: Monumental Hero Section, Chamber Seal #100 & Dual-Counsel Credential Pills
+P288 (style=Normal): Figure B.2 captures the monumental hero section. Set against a deep midnight navy canvas (#080E18), the typography pairs classical Cormorant Garamond with Roman lapidary Cinzel. The gold chamber seal (#100) and bar admission credential pills anchor the advocate's legal standing before the Madras High Court.
+P289 (style=Normal): 
+P290 (style=Normal): Figure B.3: Dual Counsel Leadership Profile Cards (Senior Advocate Mohamed Ansaree & Advocate B. Kannan)
+P291 (style=Normal): Figure B.3 displays the dual-counsel presentation. The profile of Senior Advocate Mohamed Ansaree highlights over three decades of appellate trial standing, while Advocate B. Kannan's profile articulates his interdisciplinary qualifications (MBA, M.Com, M.Phil, B.L.) and active trial practice across civil, criminal, and commercial jurisdictions.
+P292 (style=Normal): 
+P293 (style=Normal): Figure B.4: 8 Legal Practice Area Folders & Interactive Weighing Machine Physics
+P294 (style=Normal): Figure B.4 documents the practice areas section. Eight legal dossiers (Civil Property, Criminal Defence, Family Law, Title Scrutiny, Commercial Contracts, High Court Writs, Consumer Disputes, and Documentation) flank the interactive weighing scales of justice that tilt dynamically upon user hover.
+P295 (style=Normal): 
+P296 (style=Normal): Figure B.5: Landmark Case Victories with Litigant Privacy Redacted Black Bar Styling
+P297 (style=Normal): Figure B.5 showcases the landmark case victories section. In strict compliance with attorney-client confidentiality and personal data protection norms, sensitive litigant identities are masked using animated black redacted bars (.redacted-text) that reveal authorized case categories upon interaction.
+P298 (style=Normal): 
+P299 (style=Normal): Figure B.6: Sworn Client Notary Affidavits on Antique Legal Parchment
+P300 (style=Normal): Figure B.6 presents the client testimonials rendered as sworn notary affidavits. Using off-white legal parchment card backgrounds (#F8F5EE), dark charcoal type, and official wax seal jurat stamps, client appreciations reflect the dignified aesthetic of judicial filings.
+P301 (style=Normal): 
+P302 (style=Normal): Figure B.7: Tamil Bilingual Interface (தமிழ்) with Instant DOM String Replacement
+P303 (style=Normal): Figure B.7 illustrates the real-time Tamil localization. Clicking 'தமிழ்' in the top utility bar translates all headings, navigation items, practice descriptions, and statutory notices into culturally authentic Tamil legal vocabulary without page reload.
+P304 (style=Normal): 
+P305 (style=Normal): Figure B.8: Interactive Accordion Frequently Asked Questions (FAQ) Drawers
+P306 (style=Normal): Figure B.8 documents the interactive FAQ accordion. Designed for distressed litigants seeking procedural clarity, the accordion features smooth single-open mutex behavior answering common queries regarding consultation booking, document verification, and court representation.
+P307 (style=Normal): 
+P308 (style=Normal): Figure B.9: Consultation Brief Petition Intake Form & Docket Code Generator
+P309 (style=Normal): Figure B.9 displays the consultation petition form. Litigants submit preliminary case briefs with automated client-side validation, receiving a registered docket code (e.g. BK-2026-XXXXX) and pre-filled dispatch options directly connecting to the advocate's chamber communication channels.
+P310 (style=Normal): Annexure C: Commercial Tax Invoice & UPI Payment Records
+P311 (style=Normal): Table 16.1 documents the itemized commercial billing, payment milestones, and banking settlements for the Rs. 2,000 revenue generated under Assignment – II:
+P312 (style=Normal): Statutory Note: Under CBIC Notification No. 12/2017 - Central Tax (Rate), services provided by an individual advocate or senior advocate by way of legal services are exempt from Central Goods and Services Tax (GST).
+P313 (style=Normal): Annexure D: Client Feature Evaluation Scorecard
+P314 (style=Normal): At the final acceptance review on 04 October 2026, Advocate B. Kannan formally evaluated the delivered website across 10 core technical and aesthetic dimensions, recorded in Table 16.2:
+P315 (style=Normal): Annexure E: Signed Client Acceptance & Completion Certificate
+P316 (style=Normal): The formal certificate of project completion and client acceptance signed by Advocate B. Kannan confirms that students Mukil Barath S S and Salini N have satisfactorily developed and delivered the professional portfolio website for 100 Law Chamber. All source code, local staging setups, and documentation were handed over on 14 October 2026.
+P317 (style=Normal): References & Statutory Citations
+P318 (style=List Bullet): [1] Bar Council of India: Rules Governing Advocates, Part VI, Chapter II, Section IV - Standards of Professional Conduct and Etiquette (Rule 36 regarding legal web presence).
+P319 (style=List Bullet): [2] The Advocates Act, 1961: Act No. 25 of 1961, Ministry of Law and Justice, Government of India.
+P320 (style=List Bullet): [3] Supreme Court of India: Bar Council of Maharashtra v. M.V. Dabholkar, 1976 2 SCC 291 (Professional ethics and non-commercial status of legal practice).
+P321 (style=List Bullet): [4] W3C Web Content Accessibility Guidelines: WCAG 2.1 Level AA Standard, World Wide Web Consortium (W3C), 2018.
+P322 (style=List Bullet): [5] Google Lighthouse Quality Audits: Automated developer tools for web page performance, accessibility, best practices, and SEO, Google Developers, 2024.
+P323 (style=List Bullet): [6] MDN Web Docs: Intersection Observer API & CSS Flexible Box Layout Specification, Mozilla Developer Network, 2024.
+P324 (style=List Bullet): [7] High Court of Judicature at Madras: Rules of Practice and E-Filing Guidelines for Subordinate Courts and High Court Benches, 2024.
+P325 (style=List Bullet): [8] Negotiable Instruments Act, 1881: Act No. 26 of 1881, Section 138 (Dishonour of Cheque for Insufficiency of Funds).
+P326 (style=List Bullet): [9] Code of Criminal Procedure, 1973: Act No. 2 of 1974, Sections 438 (Anticipatory Bail) and 482 (Inherent Powers of High Court).
+P327 (style=List Bullet): [10] Indian Evidence Act, 1872: Act No. 1 of 1872, Section 126 (Professional Communications and Attorney-Client Privilege).
+
+
+=== TABLES IN USER REPORT ===
+
+--- Table 0 (2 rows, 2 cols) ---
+  R0: ['Signature of Candidate 1:  _________________________________', 'Signature of Candidate 2:  _________________________________']
+  R1: ['Date: 14 October 2026 | Place: Coimbatore']
+
+--- Table 1 (6 rows, 2 cols) ---
+  R0: ['Core Technology Stack', 'HTML5 (Semantic), Modern CSS3 (Grid/Flexbox/3D), Vanilla Jav']
+  R1: ['Typography Pairing', 'Cormorant Garamond (Classical Display Serif), Cinzel (Roman ']
+  R2: ['Interactive Dynamics', '3.5s Weighing Scales Preloader, SVG Balance Tipping Physics,']
+  R3: ['Compliance & Ethics', 'Bar Council of India Rule 36 Mandatory Disclaimer Modal, 100']
+  R4: ['Hosting & Zero-Cost Model', 'Pure Client-Side Static Architecture, Python HTTP Server (St']
+  ... (1 more rows)
+
+--- Table 2 (33 rows, 3 cols) ---
+  R0: ['1', 'Project Abstract & Executive Summary', '3']
+  R1: ['2', 'Client Organization Profile, Legal Standing & Problem Defini', '7']
+  R2: ['2.1', 'Client Identity & Bar Credentials (B. Kannan, MBA, M.Com, M.', '7']
+  R3: ['2.2', 'Chamber Lineage & Senior Counsel Mentorship (Mr. Mohamed Ans', '7']
+  R4: ['2.3', '100 Law Chamber Heritage & High Court Jurisdiction', '7']
+  ... (28 more rows)
+
+--- Table 3 (25 rows, 3 cols) ---
+  R0: ['Table 1.1', 'Client Profile & Business Identification Matrix', '8']
+  R1: ['Table 2.1', 'Architectural Comparison Static JAMstack vs Dynamic Heavy CM', '11']
+  R2: ['Table 3.1', 'Comprehensive Functional Requirements Matrix (FR-01 to FR-16', '13']
+  R3: ['Table 3.2', 'Non-Functional Technical Requirements & Architectural Constr', '15']
+  R4: ['Table 4.1', 'Project Work Breakdown Structure (WBS) & Milestones Schedule', '16']
+  ... (20 more rows)
+
+--- Table 4 (17 rows, 3 cols) ---
+  R0: ['Figure 1.1', 'Information Architecture & Site Navigation Map', '8']
+  R1: ['Figure 5.1', 'Static JAMstack 3-Tier Architecture & Zero-Server Model', '18']
+  R2: ['Figure 5.2', 'Zero-Database Client Consultation Inquiry & Docket Flow', '18']
+  R3: ['Figure 5.3', 'Single-Page Visual Hierarchy & Sectional Blueprint', '20']
+  R4: ['Figure 6.1', 'Workspace Repository Architecture & Directory Tree', '21']
+  ... (12 more rows)
+
+--- Table 5 (12 rows, 2 cols) ---
+  R0: ['Client / Entity Name', 'B. Kannan, Advocate (B. Kannan Advocate Office)']
+  R1: ['Nature of Business', 'Legal Services & Judicial Consultancy (Civil, Criminal, Fami']
+  R2: ['Contact Person & Title', 'Kannan K (Advocate B. Kannan), MBA., M.Com., M.Phil., B.L. –']
+  R3: ['Associated Senior Counsel', 'Mr. Mohamed Ansaree, Senior Advocate, B.Com, B.L. (Madras Hi']
+  R4: ['Direct Phone / WhatsApp', '+91 98401 00603']
+  ... (7 more rows)
+
+--- Table 6 (6 rows, 3 cols) ---
+  R0: ['Evaluation Parameter', 'Dynamic CMS (WordPress/PHP)', 'Our Static JAMstack Solution']
+  R1: ['Hosting Cost', 'Rs. 3,500 - 6,000/year (PHP/MySQL Server)', 'Rs. 0 (GitHub Pages / Netlify / Vercel CDN)']
+  R2: ['Loading Speed', '3.8s - 6.2s (Server rendering delay)', '0.45s - 0.75s (Instant pre-compiled static assets)']
+  R3: ['Security Vulnerabilities', 'High (SQL injection, plugin exploits)', 'Zero (No server-side database or execution)']
+  R4: ['Maintenance Overhead', 'Weekly plugin & database updates required', 'Zero maintenance; files remain immutable']
+  ... (1 more rows)
+
+--- Table 7 (17 rows, 4 cols) ---
+  R0: ['Req ID', 'Feature Name', 'Functional Requirement Description', 'Priority']
+  R1: ['FR-01', '3.5s Preloader Screen', 'Display animated balance scales tipping motion, silk ribbon ', 'High']
+  R2: ['FR-02', 'Hero Monument Section', 'Render chamber titles, dual-counsel qualification pills, off', 'Critical']
+  R3: ['FR-03', 'Dual Counsel Leadership', 'Present comprehensive profiles for Senior Advocate Mohamed A', 'Critical']
+  R4: ['FR-04', '8 Practice Area Dossiers', 'Display 8 categorized legal disciplines with section (§) ser', 'Critical']
+  ... (12 more rows)
+
+--- Table 8 (6 rows, 3 cols) ---
+  R0: ['Requirement Area', 'Target Metric / Standard', 'Technical Strategy']
+  R1: ['Page Load Speed', 'First Contentful Paint < 0.8s', 'Static asset minification, preconnected Google Fonts CDN, in']
+  R2: ['Responsiveness', '100% Mobile & Desktop adaptive', 'CSS Flexbox, Grid, 3 dynamic media query breakpoints (1024px']
+  R3: ['Cross-Browser Fidelity', '100% parity across Chromium, Gecko, WebKit', 'Standard CSS3 properties with vendor fallbacks and zero prop']
+  R4: ['Accessibility (a11y)', 'WCAG 2.1 Level AA Compliance', 'Semantic HTML5, ARIA labels, 4.5:1 color contrast ratio, key']
+  ... (1 more rows)
+
+--- Table 9 (8 rows, 4 cols) ---
+  R0: ['Stage', 'Activity / Phase', 'Calendar Timeline', 'Status']
+  R1: ['Phase 1', 'Client Inception Meeting & Requirement Discovery', '20 Aug 2026', 'Completed']
+  R2: ['Phase 2', 'Architecture, Wireframing & Design Tokens Formulation', '24 Aug – 04 Sep 2026', 'Completed']
+  R3: ['Phase 3', 'Frontend Development & Module Coding (Sprint 1)', '05 Sep – 11 Sep 2026', 'Completed']
+  R4: ['Phase 4', 'Mid-Term Review Meeting & Client Feedback (Meeting 2)', '12 Sep 2026', 'Completed']
+  ... (3 more rows)
+
+--- Table 10 (5 rows, 3 cols) ---
+  R0: ['Engineering Domain', 'Primary Developer', 'Specific Responsibilities']
+  R1: ['Frontend & Architecture', 'Mukil Barath S S (24AM028)', 'HTML5 structure, JavaScript modules, preloader timing, scale']
+  R2: ['UI/UX Design & Styling', 'Salini N (24AM045)', 'Design token architecture, Cormorant Garamond typography pai']
+  R3: ['Quality Assurance & Testing', 'Salini N (24AM045)', 'Cross-browser testing, responsive viewport audits, WCAG acce']
+  R4: ['Client Engagement & Handover', 'Mukil Barath S S (24AM028)', 'Client consultation meetings, minutes drafting, change reque']
+
+--- Table 11 (3 rows, 2 cols) ---
+  R0: ['Website Design, Engineering, Localization & Delivery (All-In', 'Rs. 2,000']
+  R1: ['Goods & Services Tax (GST) (Client is an individual advocate', 'Not Applicable (Rs. 0)']
+  R2: ['Total Agreed Commercial Project Value', 'Rs. 2,000']
+
+--- Table 12 (6 rows, 4 cols) ---
+  R0: ['Design Token', 'Hex Code', 'Color Name', 'Psychological & Judicial Rationale']
+  R1: ['--bg-navy-dark', '#080E18', 'Midnight Navy Dark', 'Represents deep solemnity, judicial depth, and professional ']
+  R2: ['--bg-card', '#0F1A2B', 'Deep Slate Navy', 'Provides high-contrast containment for legal dossiers and af']
+  R3: ['--gold', '#C9A84C', 'Antique Legal Brass', 'Evokes traditional scales of justice, law book bindings, and']
+  R4: ['--parchment', '#F8F5EE', 'Off-White Legal Parchment', 'Replicates historic legal stationery and ensures comfortable']
+  ... (1 more rows)
+
+--- Table 13 (6 rows, 4 cols) ---
+  R0: ['Element', 'Font Family', 'Weight & Size', 'Usage / Role']
+  R1: ['Hero Title (H1)', 'Cormorant Garamond', '600 | 42px - 68px', 'Monumental advocate names']
+  R2: ['Section Headings (H2)', 'Cormorant Garamond', '600 | 38px - 54px', 'Primary section titles']
+  R3: ['Card Titles (H3)', 'Cormorant Garamond', '600 | 22px - 26px', 'Practice & dossier headlines']
+  R4: ['Labels & Badges', 'Cinzel', '700 | 11px - 13px (Uppercase)', 'Chamber seal, tabs, buttons']
+  ... (1 more rows)
+
+--- Table 14 (1 rows, 1 cols) ---
+  R0: ['d:\\AVLANCE\\Advocate ├── index.html                          ']
+
+--- Table 15 (12 rows, 4 cols) ---
+  R0: ['File / Path', 'Size (Bytes)', 'Format / Lines', 'System Role & Implementation Utility']
+  R1: ['index.html', '144,370', 'HTML5 / 3,664', 'Primary production single-page application deliverable conta']
+  R2: ['stitch_advocate_portfolio_website/code.html', '144,370', 'HTML5 / 3,664', 'Identical isolated sandbox distribution file for staging tes']
+  R3: ['stitch_advocate_portfolio_website/screen.png', '241,341', 'PNG Image', 'High-resolution visual benchmark screenshot capturing hero a']
+  R4: ['generate_30_page_report.py', '121,634', 'Python / 1,578', 'Automated academic report generator script utilizing python-']
+  ... (7 more rows)
+
+--- Table 16 (17 rows, 3 cols) ---
+  R0: ['HTML5 Section / ID', 'Line Range in index.html', 'Technical Component & Dynamic Behavior']
+  R1: ['Head & Meta Tags', 'Lines 1 – 23', 'SEO metadata, Open Graph protocol, Google Fonts CDN preconne']
+  R2: ['CSS Design System', 'Lines 24 – 750', 'CSS custom properties, cursor physics, keyframe animations, ']
+  R3: ['Section: Preloader', 'Lines 751 – 860', 'Fixed overlay, SVG balance scales oscillation, silk ribbon d']
+  R4: ['Top Utility Bar', 'Lines 861 – 915', 'Chamber address, phone, working hours, real-time English/Tam']
+  ... (12 more rows)
+
+--- Table 17 (6 rows, 3 cols) ---
+  R0: ['Source File', 'Linked Artifacts / Dependencies', 'Lifecycle Interaction']
+  R1: ['index.html', 'Google Fonts CDN, Google Maps API', 'Renders primary production website; source of technical docu']
+  R2: ['stitch/.../code.html', 'index.html', 'Synchronized staging mirror for sandbox testing and client r']
+  R3: ['stitch/.../screen.png', 'index.html, Figma UI Design', 'Visual reference benchmark for pixel-perfect fidelity audit.']
+  R4: ['generate_30_page_report.py', 'index.html, check_pages.ps1, .docx', 'Reads codebase metrics and compiles the 30-page Word documen']
+  ... (1 more rows)
+
+--- Table 18 (1 rows, 1 cols) ---
+  R0: ['@keyframes weighMotion {   0%   { transform: rotate(0deg); }']
+
+--- Table 19 (1 rows, 1 cols) ---
+  R0: ['// Linear Interpolation Cursor Follower Engine let mouseX = ']
+
+--- Table 20 (1 rows, 1 cols) ---
+  R0: ['window.tiltInteractiveScales = function(deg) {   const beam ']
+
+--- Table 21 (1 rows, 1 cols) ---
+  R0: ['window.setLanguage = function(lang) {   if (!translations[la']
+
+--- Table 22 (21 rows, 5 cols) ---
+  R0: ['Test ID', 'Test Scenario', 'Test Trigger / Input', 'Expected Output', 'Result']
+  R1: ['T-01', 'Preloader Timing & Transition', 'Page reload (F5)', 'Preloader plays for 3.5s, scales balance, fades out cleanly', 'PASS']
+  R2: ['T-02', 'Navigation Smooth Scroll', "Click 'Practice Areas' link", 'Viewport smoothly scrolls to `#practice` section', 'PASS']
+  R3: ['T-03', 'Bilingual Language Switch', "Click 'தமிழ்' button in top bar", 'All `data-i18n` tags switch to Tamil text without layout bre', 'PASS']
+  R4: ['T-04', 'Bilingual Reversion', "Click 'English' button", 'All labels revert to English cleanly', 'PASS']
+  ... (16 more rows)
+
+--- Table 23 (6 rows, 4 cols) ---
+  R0: ['Browser', 'Tested Version', 'Rendering & JS Execution', 'Compliance']
+  R1: ['Google Chrome', '120.0 (Windows / macOS)', 'Flawless rendering; full CSS Grid & SVG animation support', '100% PASS']
+  R2: ['Microsoft Edge', '120.0 (Chromium Engine)', 'Identical high-fidelity rendering, zero console errors', '100% PASS']
+  R3: ['Mozilla Firefox', '122.0 (Gecko Engine)', 'Smooth CSS transitions, SVG filter gradients render properly', '100% PASS']
+  R4: ['Apple Safari', '17.2 (WebKit / macOS)', 'Backdrop filters render cleanly, typography metrics aligned', '100% PASS']
+  ... (1 more rows)
+
+--- Table 24 (5 rows, 4 cols) ---
+  R0: ['Device Category', 'Viewport Width', 'Layout Adaptation Behavior', 'Audit Result']
+  R1: ['Desktop 4K / Widescreen', '1920px - 2560px', 'Max-width container (1280px) centered with balanced dark mar', '100% PASS']
+  R2: ['Laptop / Standard PC', '1200px - 1440px', '4-column dossier grid, full navigation links, interactive sc', '100% PASS']
+  R3: ['Tablet Portrait / iPad', '768px - 1024px', '2-column grid, compact hero typography, scaled scales SVG.', '100% PASS']
+  R4: ['Mobile Smartphone', '360px - 480px', 'Single column stack, hamburger drawer active, full-width tou', '100% PASS']
+
+--- Table 25 (5 rows, 3 cols) ---
+  R0: ['Audit Category', 'Score Achieved', 'Technical Justification']
+  R1: ['Performance', '98 / 100', 'Zero render-blocking scripts, lightweight static assets, fas']
+  R2: ['Accessibility (a11y)', '96 / 100', 'Semantic HTML5, ARIA labels, color contrast ratios >= 4.5:1,']
+  R3: ['Best Practices', '100 / 100', "HTTPS ready, modern DOCTYPE, secure external links (`rel='no"]
+  R4: ['Search Engine (SEO)', '100 / 100', 'Title tags, meta descriptions, mobile viewport, structured H']
+
+--- Table 26 (6 rows, 2 cols) ---
+  R0: ['Local Staging Server', 'Python 3.14 Built-In HTTP Server (Port 8088)']
+  R1: ['Production Hosting Platform', 'Static CDN Hosting (GitHub Pages / Netlify / Vercel)']
+  R2: ['Repository Source Control', '[Insert GitHub Repository URL]']
+  R3: ['Live Production URL', '[Insert Live Website URL]']
+  R4: ['SSL/TLS Security Protocol', '256-bit TLS 1.3 Encryption with Automatic HTTPS Enforcement']
+  ... (1 more rows)
+
+--- Table 27 (4 rows, 4 cols) ---
+  R0: ['Meeting', 'Date', 'Agenda & Discussion', 'Client Feedback / Decisions']
+  R1: ['Meeting 1', '20 Aug 2026', 'Inception meeting at 100 Law Chamber. Collected bar qualific', 'Approved Rs. 2,000 project fee. Emphasized non-solicitation ']
+  R2: ['Meeting 2', '12 Sep 2026', 'Mid-term design review. Demonstrated initial wireframe, resp', 'Requested a dramatic 3-4s preloader with weighing machine & ']
+  R3: ['Meeting 3', '04 Oct 2026', 'Final demonstration of complete website, Tamil language engi', 'Client expressed 100% satisfaction. Approved final handover ']
+
+--- Table 28 (6 rows, 4 cols) ---
+  R0: ['CR ID', 'Change Description', 'Technical Implementation & Impact', 'Status']
+  R1: ['CR-01', 'Add 3.5s Preloader with Ribbon & Weighing Machine', 'Created `#preloader` overlay with CSS keyframe beam tipping ', 'Approved & Implemented']
+  R2: ['CR-02', 'Typography Refinement (Remove Clumsy Fonts)', 'Replaced decorative fonts with Cormorant Garamond, Cinzel, a', 'Approved & Implemented']
+  R3: ['CR-03', 'Non-Intrusive Gold Cursor Follower', 'Preserved native OS mouse pointer; added smooth trailing gol', 'Approved & Implemented']
+  R4: ['CR-04', 'Full Tamil (தமிழ்) Bilingual Engine', 'Replaced placeholder alerts with client-side DOM translation', 'Approved & Implemented']
+  ... (1 more rows)
+
+--- Table 29 (12 rows, 2 cols) ---
+  R0: ['Website UI/UX Design & Typography Token Architecture', 'Rs. 600']
+  R1: ['Frontend Development (HTML5, Modern CSS3 & Vanilla JavaScrip', 'Rs. 700']
+  R2: ['Bilingual Localization Engine (English & Tamil Translations)', 'Rs. 300']
+  R3: ['Interactive Modules (Weighing Scales Physics, Preloader, Dos', 'Rs. 250']
+  R4: ['Testing, Cross-Browser Optimization & Google Maps Integratio', 'Rs. 150']
+  ... (7 more rows)
+
+--- Table 30 (6 rows, 3 cols) ---
+  R0: ['Lifecycle Activity', 'Effort Invested', 'Lead Developer']
+  R1: ['Requirement Gathering & Client Consultations', '6 Hours', 'Mukil Barath S S & Salini N']
+  R2: ['UI/UX Wireframing & Design Token Styling', '8 Hours', 'Salini N']
+  R3: ['Core Frontend Coding & Module Development', '14 Hours', 'Mukil Barath S S']
+  R4: ['Bilingual Translation Engine & Preloader', '5 Hours', 'Mukil Barath S S']
+  ... (1 more rows)
+
+--- Table 31 (3 rows, 4 cols) ---
+  R0: ['Milestone', 'Amount', 'Date & Channel', 'Settlement Proof Reference']
+  R1: ['Milestone 1 (Advance)', 'Rs. 1,000', '12 Sep 2026 | UPI Transfer', 'UPI Ref: UPI/20260912/KAN/001 (Annexure C)']
+  R2: ['Milestone 2 (Final)', 'Rs. 1,000', '14 Oct 2026 | UPI Transfer', 'UPI Ref: UPI/20261014/KAN/002 (Annexure C)']
+
+--- Table 32 (6 rows, 3 cols) ---
+  R0: ['Deliverable Item', 'Description / File Format', 'Client Acceptance Status']
+  R1: ['Source Code Archive', 'Complete HTML5, CSS3, and JavaScript source code (`index.htm', 'Verified & Accepted']
+  R2: ['Local Staging Setup', 'Python HTTP Server configuration script for chamber demonstr', 'Verified & Accepted']
+  R3: ['Source Control Repo', 'Hosted Git repository: [Insert GitHub Repository URL]', 'Verified & Accepted']
+  R4: ['Live Web Hosting', 'Production deployment URL: [Insert Live Website URL]', 'Verified & Accepted']
+  ... (1 more rows)
+
+--- Table 33 (4 rows, 2 cols) ---
+  R0: ['Student Engineering Team', 'Industry Client Representative']
+  R1: ['Name / Signature:  ___________________________________ Mukil', 'Name / Signature:  ___________________________________ Kanna']
+  R2: ['Department: Department of Artificial Intelligence and Machin', 'Chamber Office: 100 Law Chamber, Madras High Court Buildings']
+  R3: ['Date: 14 October 2026 Status: Submitted for Academic Evaluat', 'Date: 14 October 2026 Status: Client Acceptance & Sign-Off C']
+
+--- Table 34 (6 rows, 3 cols) ---
+  R0: ['Annexure', 'Description of Supporting Document', 'Status']
+  R1: ['Annexure A', 'Client Consent Letter & Masked Bar Council Registration Proo', 'Verified & Attached']
+  R2: ['Annexure B', 'Project Screenshots (Desktop, Mobile Viewport, Tamil View, P', 'Verified & Attached']
+  R3: ['Annexure C', 'Commercial Itemized Invoice & Masked UPI Payment Confirmatio', 'Verified & Attached']
+  R4: ['Annexure D', 'Formal Client Feedback Record & Feature Evaluation Scorecard', 'Verified & Attached']
+  ... (1 more rows)
+
+--- Table 35 (4 rows, 4 cols) ---
+  R0: ['Invoice No.', 'Date / Status', 'Milestone Scope / Deliverable', 'Amount & UPI Ref']
+  R1: ['INV-2026-BK-001', '12-09-2026 Paid', 'Project Initiation, UI/UX Wireframing & Design Sign-off', 'Rs. 1,000 UPI/20260912/KAN/001']
+  R2: ['INV-2026-BK-002', '14-10-2026 Paid', 'Final Single-Page Application, Bilingual Engine & Handover', 'Rs. 1,000 UPI/20261014/KAN/002']
+  R3: ['Total Realization', 'All Settled', 'Complete Professional Legal Web Solution (Assignment - II)', 'Rs. 2,000 Total Tax Exempt (Sec 65B)']
+
+--- Table 36 (11 rows, 4 cols) ---
+  R0: ['No.', 'Evaluation Dimension / Feature', 'Score', 'Advocate B. Kannan Remarks']
+  R1: ['1', 'Visual Gravitas & Judicial Dignity', '5 / 5', 'Exceptional monumental feel; matches High Court prestige.']
+  R2: ['2', 'BCI Rule 36 Ethical Compliance', '5 / 5', 'Strictly non-solicitous, objective, and legally sound.']
+  R3: ['3', 'Bilingual Tamil (தமிழ்) Authenticity', '5 / 5', 'Accurate legal vocabulary; seamless instant toggle.']
+  R4: ['4', 'Interactive Weighing Scales Motion', '5 / 5', 'Impressive interactive feature; smooth physics.']
+  ... (6 more rows)

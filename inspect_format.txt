@@ -1,0 +1,109 @@
+Paragraphs: 37, Tables: 6
+
+P00 [Title]: ASSIGNMENT – II
+P01 [Normal]: Revenue Generation Model – Client-Based Final Year Project Report
+P02 [Normal]: Department of Artificial Intelligence and Machine Learning
+P03 [Normal]: Assignment title: Comprehensive Project Development, Client Verification and Revenue Generation Report
+P04 [Heading 2]: 1. Mandatory Report Structure
+P05 [Heading 2]: 2. Client Details – Mandatory
+P06 [Normal]: 
+P07 [Normal]: Verification: GST certificate if applicable; alternatively valid business-registration evidence. Include location confirmation and a signed client authorization/consent letter. Mask sensitive identifiers.
+P08 [Heading 2]: 3. Project Development Details
+P09 [List Bullet]: Requirement analysis: Client problems, objectives, requirements and acceptance criteria
+P10 [List Bullet]: Design: Architecture, database schema, UI/UX wireframes and modules
+P11 [List Bullet]: Development: Technologies, code repository, progress and screenshots
+P12 [List Bullet]: Testing: Functional, responsive, accessibility and security checks
+P13 [List Bullet]: Deployment: Live URL, domain, hosting platform and deployment date
+P14 [List Bullet]: Delivery: Demonstration, training, acceptance and maintenance terms
+P15 [List Bullet]: 
+P16 [List Bullet]: 
+P17 [Heading 2]: 4. Revenue Generation and Payment Details
+P18 [Normal]: Record payment date, method, transaction reference and invoice/receipt number. Attach redacted payment confirmation with client consent. GST must only be charged where legally applicable; invoices must be issued by an authorized person or entity.
+P19 [Heading 2]: 5. Client Meeting and Progress Report
+P20 [Heading 2]: 6. Assignment II Evaluation Rubric
+P21 [Normal]: Evaluation note: Grade authentic technical work and documented client engagement, not the size of the payment. A genuine project should not automatically fail if an agreed payment remains pending.
+P22 [Heading 2]: 7. Mandatory Submission Checklist
+P23 [Normal]: ☐  Complete project report (PDF and printed copy)
+P24 [Normal]: ☐  Client details and business verification
+P25 [Normal]: ☐  Approved requirements and quotation
+P26 [Normal]: ☐  System design and project screenshots
+P27 [Normal]: ☐  GitHub repository and live website URL
+P28 [Normal]: ☐  Client meeting and progress records
+P29 [Normal]: ☐  Invoice/receipt where applicable
+P30 [Normal]: ☐  Redacted payment proof or pending-payment declaration
+P31 [Normal]: ☐  Client feedback and acceptance certificate
+P32 [Normal]: ☐  Final project demonstration
+P33 [Heading 2]: 8. Final Submission Instructions
+P34 [Normal]: Recommended length: 30 pages excluding annexures. Submit one combined PDF report, source repository, live deployment URL and supporting client/revenue documents. Faculty may independently confirm authenticity with the client.
+P35 [Heading 2]: 9. Approval / Verification
+P36 [Normal]: 
+
+--- TABLES ---
+
+Table 0: 16 rows x 2 cols
+  Row 0: ['Section', 'Required information']
+  Row 1: ['Cover Page', 'Title, student names, register numbers, guide, department']
+  Row 2: ['Project Abstract', 'Problem, solution and outcomes']
+  Row 3: ['Client Profile', 'Business, contact, address and GST details where applicable']
+  Row 4: ['Requirement Analysis', 'Existing problem, functional and non-functional requirements']
+  Row 5: ['Project Proposal', 'Scope, deliverables, timeline and quotation']
+  Row 6: ['System Design', 'Architecture, database, wireframes and UML']
+  Row 7: ['Technical Implementation', 'Modules, stack, screenshots, repository']
+  Row 8: ['Testing and Deployment', 'Test cases, results, hosting and live URL']
+  Row 9: ['Client Interaction', 'Meeting minutes, feedback, change requests']
+  Row 10: ['Revenue Generation', 'Agreed price, payment status and supporting evidence']
+  Row 11: ['Client Verification', 'Registration/location evidence and consent']
+  Row 12: ['Project Delivery', 'Handover, acceptance, training and support']
+  Row 13: ['Outcomes and Conclusion', 'Learning, revenue and future scope']
+  Row 14: ['Annexures', 'Evidence and supporting documents']
+  Row 15: ['', '']
+
+Table 1: 12 rows x 2 cols
+  Row 0: ['Field', 'Details']
+  Row 1: ['Client / Company Name', '____________________________']
+  Row 2: ['Nature of Business', '____________________________']
+  Row 3: ['Contact Person & Designation', '____________________________']
+  Row 4: ['Mobile Number', '____________________________']
+  Row 5: ['Official Email', '____________________________']
+  Row 6: ['Complete Business Address', '____________________________']
+  Row 7: ['GSTIN (if registered)', '____________________________']
+  Row 8: ['Google Maps Location Link', '____________________________']
+  Row 9: ['Existing Website (if any)', '____________________________']
+  Row 10: ['Date of First Meeting', '____________________________']
+  Row 11: ['Client Requirement Summary', '____________________________']
+
+Table 2: 13 rows x 2 cols
+  Row 0: ['Particulars', 'Amount (₹)']
+  Row 1: ['Website Design Charges', '']
+  Row 2: ['Website Development Charges', '']
+  Row 3: ['Domain and Hosting Charges', '']
+  Row 4: ['Additional Features', '']
+  Row 5: ['Maintenance Charges', '']
+  Row 6: ['Total Agreed Project Value', '']
+  Row 7: ['Advance Payment Received', '']
+  Row 8: ['Final Payment Received', '']
+  Row 9: ['Total Revenue Collected', '']
+  Row 10: ['Project Expenses', '']
+  Row 11: ['Net Project Earnings', '']
+  Row 12: ['Balance Payment Pending', '']
+
+Table 3: 4 rows x 4 cols
+  Row 0: ['Meeting', 'Date', 'Discussion / Work Completed', 'Client Feedback']
+  Row 1: ['Meeting 1', '', '', '']
+  Row 2: ['Meeting 2', '', '', '']
+  Row 3: ['Meeting 3', '', '', '']
+
+Table 4: 8 rows x 2 cols
+  Row 0: ['Criterion', 'Marks']
+  Row 1: ['Client Identification & Verification', '15']
+  Row 2: ['Requirement Analysis & Proposal', '15']
+  Row 3: ['System Design & Technical Development', '30']
+  Row 4: ['Testing, Deployment & Demonstration', '15']
+  Row 5: ['Revenue Documentation & Client Acceptance', '15']
+  Row 6: ['Report Quality & Viva', '10']
+  Row 7: ['TOTAL', '100']
+
+Table 5: 3 rows x 3 cols
+  Row 0: ['Student Team', 'Faculty Guide', 'Client Representative']
+  Row 1: ['Name / Signature:', 'Name / Signature:', 'Name / Signature:']
+  Row 2: ['Date:', 'Date:', 'Date:']
